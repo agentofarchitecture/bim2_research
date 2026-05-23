@@ -21,6 +21,19 @@
 5. **Semantic material/system library**
    - Materials/details become queryable by use, cost, carbon, supplier, previous project, and construction method.
 
+6. **IDS-lite checker for Rhino/Speckle**
+   - Define a tiny YAML/JSON requirement schema for layers, object names, user text, blocks, and Speckle properties.
+   - Run pass/fail/warn checks and produce an auditable model preflight report.
+   - Later map the schema to buildingSMART IDS XML.
+
+7. **Brief/spec to model preflight checklist**
+   - Extract requirements from a client brief, planning note, or office standard.
+   - Convert them into human-reviewable checks before claiming any automated compliance.
+
+8. **Broken Rhino model triage**
+   - Scan for duplicated geometry, bad blocks, nonstandard layers, missing metadata, oversized assets, and unresolved references.
+   - Return ranked fixes plus optional Rhino Python/Grasshopper helper scripts.
+
 ## Bigger strategic bets
 
 - Open project knowledge graph for small architecture practices

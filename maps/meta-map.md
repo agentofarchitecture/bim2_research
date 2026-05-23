@@ -57,7 +57,20 @@ The useful agent is not “ChatGPT for architecture” but a domain-bound worker
 - bounded tasks
 - verifiable output
 
-## 5. Open questions
+## 5. From BIM schemas to deliverable contracts
+
+IFC describes exchangeable building information, but BIM 2.0 needs a sharper contract layer: what information is required, when, by whom, using which vocabulary, and how it is checked.
+
+Emerging stack:
+
+- **IFC** as interoperable object/system data
+- **IDS** as machine-checkable information delivery requirements
+- **bSDD** as shared vocabulary / classification semantics
+- **project memory / GraphRAG** as the evidence and decision layer around the model
+
+Strategic implication: agents should not free-form “do BIM”. They should generate, interpret, and execute small requirement/check packs with audit trails.
+
+## 6. Open questions
 
 - What is the smallest useful BIM 2.0 wedge for Rhino users?
 - Where are architects currently wasting time because project context is not machine-readable?

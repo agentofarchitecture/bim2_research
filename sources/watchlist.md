@@ -22,12 +22,21 @@
 ## Research databases
 
 - arXiv: `BIM`, `semantic BIM`, `IFC knowledge graph`, `AEC AI`, `LLM architecture engineering construction`
+  - Recurring query: `all:BIM AND all:"large language model"`
+  - Recurring query: `all:BIM AND all:compliance AND all:checking`
+  - Recurring query: `all:IFC AND all:"knowledge graph"`
+  - Recurring query: `all:"information delivery specification" AND all:BIM`
 - Semantic Scholar: same terms plus citation/related-paper expansion
-- buildingSMART updates
-- Speckle blog / GitHub
+- buildingSMART updates: https://www.buildingsmart.org/feed/
+- Speckle blog / GitHub: https://speckle.systems/blog/
 - Autodesk Forma/Revit/Platform Services news
 - Rhino/Grasshopper ecosystem
 - AEC Magazine / Architosh / Parametric Architecture / That Open Company / Hypar / TestFit / Snaptrude / Arcol / Rayon / Finch / Augmenta / SWAPP
+- Product watch pages:
+  - Snaptrude AI: https://www.snaptrude.com/blog/announcing-snaptrude-ai
+  - Arcol blog: https://www.arcol.io/blog
+  - SWAPP AI/BIM posts: https://www.swapp.ai/blog
+  - Rayon blog: https://www.rayon.design/blog
 
 ## Signal quality rubric
 
