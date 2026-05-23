@@ -34,6 +34,14 @@
    - Scan for duplicated geometry, bad blocks, nonstandard layers, missing metadata, oversized assets, and unresolved references.
    - Return ranked fixes plus optional Rhino Python/Grasshopper helper scripts.
 
+9. **Top-100 people graph → interview map**
+   - Build a lightweight graph of standards contributors, open-source implementers, product builders, and practice critics.
+   - Use it to choose 5–10 short interviews that answer: what can be checked in Rhino/Speckle today without pretending to be full BIM?
+
+10. **IDS examples → Rhino check-pack converter**
+   - Pull public buildingSMART IDS examples and manually map 3–5 requirements into a YAML check pack for Rhino object names, layers, user text, and Speckle properties.
+   - Test whether architects understand and trust the report.
+
 ## Bigger strategic bets
 
 - Open project knowledge graph for small architecture practices

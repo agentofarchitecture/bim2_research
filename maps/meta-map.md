@@ -70,7 +70,38 @@ Emerging stack:
 
 Strategic implication: agents should not free-form “do BIM”. They should generate, interpret, and execute small requirement/check packs with audit trails.
 
-## 6. Open questions
+## 6. People graph as strategic infrastructure
+
+The BIM 2.0 field is not organised around one dominant software vendor. The useful map is a graph of standards authors, open-source implementers, connector builders, research benchmark authors, and practice critics.
+
+Current high-signal clusters:
+
+- **IDS / buildingSMART contributors**: define the requirement/check contract layer.
+- **IfcOpenShell / Bonsai implementers**: show how IFC can be made inspectable and scriptable outside closed BIM stacks.
+- **Speckle connector/server builders**: bridge authoring tools into project data surfaces.
+- **Rhino/Grasshopper analysis/tool builders**: prove adoption happens when tools sit inside existing design habits.
+- **LLM + BIM researchers**: provide benchmarks, but need filtering for real implementability.
+
+Strategic implication: Rhino Mind should learn from people who have made structured building data usable in hostile real-world authoring environments, not only from AI product demos.
+
+## 7. From people lists to mental-model maps
+
+The Top 100 people project is not about influence for its own sake. People are source nodes for ways of thinking:
+
+- what they think BIM is becoming;
+- what artifacts prove or operationalize that belief;
+- what assumptions or blind spots their model contains;
+- what can be borrowed, challenged, or recombined for Rhino Mind.
+
+The research loop should convert people into models, and models into experiments.
+
+Emerging synthesis:
+
+- **People graph as model graph:** map people by the ideas they carry, not just by company or follower count.
+- **Artifact-backed thinking:** only trust a model when it leaves traces in papers, repos, standards, tools, talks, or practice workflows.
+- **New model generation:** each daily pass should ask what new mental model Luke can use that did not exist before the research.
+
+## 8. Open questions
 
 - What is the smallest useful BIM 2.0 wedge for Rhino users?
 - Where are architects currently wasting time because project context is not machine-readable?

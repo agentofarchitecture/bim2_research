@@ -1,8 +1,8 @@
 # BIM 2.0 People Map
 
-Goal: identify the top 100 people shaping BIM 2.0 and adjacent AI/AEC/digital-building practice.
+Goal: identify the top 100 people shaping BIM 2.0 and adjacent AI/AEC/digital-building practice — specifically as **sources of ideas, mental models, and new strategic models** for Luke / Agents of Architecture / Rhino Mind.
 
-This is not a popularity list. It is a strategic source graph for Luke / Agents of Architecture / Rhino Mind: who to read, follow, learn from, map, contact, or build around.
+This is not a popularity list. It is a strategic source graph for Luke / Agents of Architecture / Rhino Mind: who to read, follow, learn from, map, contact, or build around. A person is important when they carry a distinct model of the future, create artifacts that prove or challenge that model, or help us synthesize a better model.
 
 ## Definition: “top people in BIM 2.0”
 
@@ -39,6 +39,13 @@ links:
   scholar:
   key_work:
 why_they_matter:
+mental_model:
+  model_name:
+  one_sentence_model:
+  why_this_model_matters:
+  limits_or_blind_spots:
+  what_rhino_mind_can_do_with_it:
+  new_model_seed:
 evidence:
   - source/link
 connections:
@@ -52,6 +59,7 @@ signal_score:
   specificity: 0-15
   interconnectedness: 0-15
   actionability: 0-20
+  mental_model_value: 0-20
 total_score: 0-100
 status: candidate | verified | top-100 | rejected
 notes:
@@ -67,6 +75,7 @@ Promote people who are one or more of:
 4. Sitting at important graph intersections between standards, software, practice, and research.
 5. Explaining the adoption/business/practice reality unusually well.
 6. Useful for Rhino Mind: someone whose work suggests a product wedge, architecture workflow, or source of reusable tools.
+7. Carrying a mental model we can learn from, critique, combine with other models, or turn into a concrete Rhino Mind experiment.
 
 Reject or demote:
 
@@ -79,7 +88,9 @@ Reject or demote:
 
 1. Seed candidates from standards bodies, papers, open-source repos, startup/product ecosystems, and public practitioner discussion.
 2. Follow links: co-authors, contributors, conference speakers, repo maintainers, standards working groups, social mentions.
-3. Score each candidate with evidence.
-4. Keep the live longlist in `people/candidates.md`.
-5. Promote verified people into `people/top-100.md`.
-6. Add outreach/relationship ideas in `people/outreach-targets.md` only when useful for Luke/Rhino Mind.
+3. Extract the candidate’s mental model: what they believe BIM/AEC software is becoming, what artifacts prove that model, and what blind spots it may have.
+4. Score each candidate with evidence.
+5. Keep the live longlist in `people/candidates.md`.
+6. Promote verified people into `people/top-100.md`.
+7. Maintain `people/mental-models.md` as the synthesis layer: person → idea → model → implication → new model.
+8. Add outreach/relationship ideas in `people/outreach-targets.md` only when useful for Luke/Rhino Mind.

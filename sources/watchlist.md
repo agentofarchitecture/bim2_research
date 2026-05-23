@@ -32,11 +32,23 @@
 - Autodesk Forma/Revit/Platform Services news
 - Rhino/Grasshopper ecosystem
 - AEC Magazine / Architosh / Parametric Architecture / That Open Company / Hypar / TestFit / Snaptrude / Arcol / Rayon / Finch / Augmenta / SWAPP
-- Product watch pages:
-  - Snaptrude AI: https://www.snaptrude.com/blog/announcing-snaptrude-ai
-  - Arcol blog: https://www.arcol.io/blog
-  - SWAPP AI/BIM posts: https://www.swapp.ai/blog
-  - Rayon blog: https://www.rayon.design/blog
+
+## Product watch pages
+
+- Snaptrude AI: https://www.snaptrude.com/blog/announcing-snaptrude-ai
+- Arcol blog: https://www.arcol.io/blog
+- SWAPP AI/BIM posts: https://www.swapp.ai/blog
+- Rayon blog: https://www.rayon.design/blog
+
+## Promoted implementation sources
+
+- buildingSMART IDS repo: https://github.com/buildingSMART/IDS
+- IfcOpenShell: https://github.com/IfcOpenShell/IfcOpenShell
+- Speckle Server: https://github.com/specklesystems/speckle-server
+- speckle-sharp connectors: https://github.com/specklesystems/speckle-sharp
+- COMPAS: https://github.com/compas-dev/compas
+- Ladybug Rhino: https://github.com/ladybug-tools/ladybug-rhino
+- That Open components: https://github.com/ThatOpen/engine_components
 
 ## Signal quality rubric
 
