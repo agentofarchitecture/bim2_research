@@ -95,3 +95,48 @@ Use this file to add idea/mental-model notes before rewriting the formal Top 100
 - **Limit / blind spot:** Practice-specific lessons may not generalize to every office.
 - **Rhino Mind implication:** Test every “BIM 2.0” idea against small-office friction: liability, deadlines, coordination, documentation.
 - **New model seed:** *Practice friction as product compass*.
+
+### André Borrmann — Agentic BIM as reproducible research infrastructure
+
+- **Core model:** BIM agents should be evaluated through explicit architectures, benchmarks, and repeatable interaction patterns, not one-off demos.
+- **Artifact trail:** `2601.00809` MCP-server reference architecture; `2605.01698` adaptive BIM information extraction; `2506.07217` BIMgent; `2505.07396` TUM2TWIN.
+- **Why important:** This cluster turns “AI for BIM” into testable infrastructure: adapters, datasets, benchmarks, and bounded tasks.
+- **Limit / blind spot:** Academic architectures can underweight messy office constraints, legacy CAD habits, and commercial deployment friction.
+- **Rhino Mind implication:** Define a small reproducible benchmark for Rhino/Speckle agents: inspect model, extract facts, run checks, patch metadata, report uncertainty.
+- **New model seed:** *Benchmark-first agentic BIM* — before selling a copilot, define the repeatable tasks and evidence traces that prove it works.
+
+### Jakob Beetz — Semantic BIM as linked, computable knowledge
+
+- **Core model:** BIM becomes more powerful when it is connected to semantic web / linked data structures rather than trapped inside authoring files.
+- **Artifact trail:** High-citation semantic BIM publication footprint; co-author on `2601.00809`; Semantic Scholar author search returned a strong J. Beetz profile with 115 papers, 2,933 citations, h-index 25.
+- **Why important:** Provides the deeper intellectual lineage behind project knowledge graphs and agent-readable building data.
+- **Limit / blind spot:** Linked-data approaches can become too abstract unless wrapped in immediate practice workflows.
+- **Rhino Mind implication:** Use graph thinking selectively: connect Rhino objects to decisions, requirements, and previous details only where it produces immediate retrieval/checking value.
+- **New model seed:** *Local linked data* — build tiny project graphs around live tasks before attempting a whole-building ontology.
+
+### Pieter Pauwels — Linked Building Data as BIM’s web layer
+
+- **Core model:** Building information should be graph-readable and web-addressable so it can interoperate beyond a single model file or vendor platform.
+- **Artifact trail:** Semantic Scholar author search returned a high-impact P. Pauwels profile with 209 papers, 5,979 citations, h-index 39; GitHub profile lists Eindhoven University of Technology; contributor to buildingSMART/ifcJSON.
+- **Why important:** Strong source for the “project memory as knowledge graph” family and for understanding where IFC/JSON/RDF/linked-data ideas meet practice.
+- **Limit / blind spot:** Semantic richness can overshoot what small architectural teams will maintain manually.
+- **Rhino Mind implication:** Generate and maintain semantics as a side effect of useful actions, not as a separate data-management chore.
+- **New model seed:** *Semantics by doing* — Rhino Mind should add graph metadata when architects ask questions, run checks, or reuse details.
+
+### Tobias Heimig-Elschner — Adapter contracts for BIM agents
+
+- **Core model:** MCP can become the stable tool-calling boundary, but BIM needs API-agnostic adapter contracts beneath it.
+- **Artifact trail:** Lead author on `2601.00809`, “A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction.”
+- **Why important:** Directly informs how Rhino Mind should avoid hard-coding every workflow into a single Rhino plugin or a single model server.
+- **Limit / blind spot:** Fresh paper; implementation maturity and code availability still need verification.
+- **Rhino Mind implication:** Sketch a `rhino_mcp_adapter` contract with primitives such as list objects, inspect properties, select context, run check, create geometry, patch metadata, export evidence.
+- **New model seed:** *One agent, many adapters* — the agent should reason over stable task primitives while adapters translate into Rhino, Speckle, IFC, or Revit.
+
+### Sylvain Hellin — Adaptive exploration of heterogeneous BIM data
+
+- **Core model:** Because BIM models are heterogeneous, agents should explore the actual structure of a model at runtime instead of assuming a fixed schema.
+- **Artifact trail:** Lead author on `2605.01698`, “BIM Information Extraction Through LLM-based Adaptive Exploration.”
+- **Why important:** This is a practical antidote to brittle natural-language-to-query demos that fail as soon as office/model conventions differ.
+- **Limit / blind spot:** Agentic code execution must be sandboxed and auditable; exploration can be slow or nondeterministic.
+- **Rhino Mind implication:** Add an “inspect before answer” step for Rhino Mind: map layers, blocks, object names, user text, Speckle properties, then answer with provenance.
+- **New model seed:** *Explore-then-check* — every model QA agent first learns the local project dialect before applying rules.

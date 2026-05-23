@@ -18,6 +18,9 @@
 - embodied carbon automation
 - computational design tooling
 - CAD/BIM copilots
+- BIM MCP / Model Context Protocol adapters
+- agentic BIM benchmarks
+- buildingSMART bSDD vocabulary implementation
 
 ## Research databases
 

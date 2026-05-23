@@ -42,6 +42,15 @@
    - Pull public buildingSMART IDS examples and manually map 3–5 requirements into a YAML check pack for Rhino object names, layers, user text, and Speckle properties.
    - Test whether architects understand and trust the report.
 
+11. **Rhino MCP adapter micro-benchmark**
+   - Define 6–8 stable task primitives: inspect selection, list layers, read object metadata, run QA check, create simple geometry, patch user text, export evidence.
+   - Build a tiny benchmark from 2–3 messy Rhino/Speckle project snapshots.
+   - Measure whether an agent can complete tasks reproducibly with provenance instead of relying on chat answers.
+
+12. **Explore-then-check model dialect mapper**
+   - Before any QA/compliance answer, have Rhino Mind map the project’s local dialect: layer conventions, block names, object names, user text keys, Speckle properties, units, and missing metadata.
+   - Output a “model dictionary” and use it to translate IDS-lite checks into the project’s actual conventions.
+
 ## Bigger strategic bets
 
 - Open project knowledge graph for small architecture practices

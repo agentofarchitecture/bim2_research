@@ -117,6 +117,18 @@ For small practices, BIM 2.0 may start with the smallest useful semantic layer a
 
 A person matters when they carry a useful model of the future. The Top 100 should therefore track not only influence, but the **distinct mental model** each person contributes.
 
+### Benchmark-first agentic BIM
+
+The Borrmann/TUM cluster suggests a useful discipline: define repeatable BIM-agent tasks, datasets, adapters, and evidence traces before making broad copilot claims. For Rhino Mind this means a small benchmark could matter more than a flashy demo: given a messy Rhino/Speckle model, inspect it, extract facts, run an IDS-lite check, patch metadata, and produce a provenance report.
+
+### One agent, many BIM adapters
+
+The MCP-server reference-architecture paper points to a separation Luke should preserve: the agent reasons over stable task primitives, while adapters translate those primitives into Rhino, Speckle, IFC, Revit, or web BIM tools. This keeps Rhino Mind from becoming a bundle of brittle one-off automations.
+
+### Explore-then-check
+
+The adaptive BIM extraction paper suggests that model QA agents should first learn the local project dialect — layers, blocks, names, user text, Speckle fields, IFC property sets — before applying requirements. This is especially relevant for small practices with inconsistent, partial, or Rhino-heavy models.
+
 ## Daily loop requirements
 
 Every people-hunt pass should add or update:

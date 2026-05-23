@@ -15,6 +15,10 @@ Last updated: 2026-05-23.
 - `"Information Delivery Specification" "LLM" "BIM"`
 - `"IFC" "knowledge graph" "large language model"`
 - `"automated code compliance" "BIM" "LLM"`
+- `"Model Context Protocol" "BIM" "IFC"`
+- `"agentic BIM" "MCP"`
+- `"BIM Information Extraction" "Adaptive Exploration"`
+- `"BIMgent" "computer-use agents" "BIM"`
 
 ### GitHub
 
@@ -24,6 +28,10 @@ Last updated: 2026-05-23.
 - `"Information Delivery Specification" "IDS" "BIM" stars:>5 pushed:>2025-01-01`
 - `"IFC" "knowledge graph" "BIM" stars:>5 pushed:>2025-01-01`
 - `topic:BIM AI AEC language:Python pushed:>2025-01-01`
+- `"MCP" "BIM" "IFC" pushed:>2026-01-01`
+- `"Model Context Protocol" "Rhino" pushed:>2026-01-01`
+- `"agentic BIM" pushed:>2026-01-01`
+- `buildingSMART bSDD contributors`
 
 ### Product / startup watch
 

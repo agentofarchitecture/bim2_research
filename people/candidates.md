@@ -160,3 +160,59 @@ Every strong candidate should have a mental-model note, even if rough.
 - Status: candidate / near-promotion
 - Actionability for Rhino Mind/AoA: Follow for server/data-layer changes that could support project memory workflows.
 - Notes: Verify public identity and role before promotion.
+
+### Tobias Heimig-Elschner
+
+- Category: research / MCP + agentic BIM architecture
+- Current org / affiliation: to verify; co-author network includes André Borrmann and Jakob Beetz.
+- Links: https://arxiv.org/abs/2601.00809
+- Why they matter: Lead author on “A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction,” directly matching Rhino Mind’s need for tool-calling architecture around CAD/BIM APIs.
+- Evidence: arXiv `2601.00809v2`; Semantic Scholar returned 0 citations but 15 references at query time, which is normal for a fresh preprint.
+- Connected people/orgs/tools: Changyu Du; Anna Scheuvens; André Borrmann; Jakob Beetz; MCP; IFC; BIM authoring APIs.
+- Score: 73
+- Status: candidate / near-promotion after role and implementation artifacts are verified
+- Mental model: “Adapter contract for BIM agents” — separate the LLM/MCP interface from tool-specific BIM APIs so workflows can be reusable, isolated, and evaluated.
+- Actionability for Rhino Mind/AoA: Treat Rhino as one adapter behind an MCP-style contract; define minimal tool primitives before building one-off agents.
+- Notes: Search for code/repo or lab page next run.
+
+### Sylvain Hellin
+
+- Category: research / BIM information extraction
+- Current org / affiliation: to verify; co-author with Suhyung Jang, Stefan Fuchs, Stavros Nousias, André Borrmann.
+- Links: https://arxiv.org/abs/2605.01698
+- Why they matter: Lead author on “BIM Information Extraction Through LLM-based Adaptive Exploration,” a strong alternative to brittle fixed-schema NL-to-query systems.
+- Evidence: arXiv `2605.01698v1`, submitted 2026-05-03.
+- Connected people/orgs/tools: André Borrmann; ifc-bench v2; IFC/BIM model extraction; LLM code execution.
+- Score: 70
+- Status: candidate
+- Mental model: “Adaptive exploration over fixed queries” — let an agent discover a model’s actual structure at runtime rather than assume a universal schema.
+- Actionability for Rhino Mind/AoA: Prototype a Rhino/Speckle inspector that iteratively explores object/layer/user-text/property structures before answering questions.
+- Notes: High strategic fit; verify method details and any benchmark artifacts.
+
+### Zihan Deng
+
+- Category: research / computer-use agents for BIM authoring
+- Current org / affiliation: to verify; co-author with Changyu Du, Stavros Nousias, André Borrmann.
+- Links: https://arxiv.org/abs/2506.07217
+- Why they matter: Lead author on BIMgent, which tests autonomous building modelling via multimodal computer-use agents inside BIM authoring workflows.
+- Evidence: arXiv `2506.07217v2`, submitted 2025-06-08.
+- Connected people/orgs/tools: BIMgent; André Borrmann; multimodal LLMs; BIM authoring software.
+- Score: 67
+- Status: candidate
+- Mental model: “Operate the authoring environment, not just the data” — agents may need to see and manipulate the UI/API of existing BIM tools.
+- Actionability for Rhino Mind/AoA: Useful cautionary reference for what should be automated through APIs/scripts versus brittle GUI control.
+- Notes: Keep as candidate until practical reproducibility is assessed.
+
+### Klaus Aengenvoort
+
+- Category: standards / bSDD implementation
+- Current org / affiliation: eTASK Immobilien Software GmbH (from GitHub profile)
+- Links: https://github.com/klacol ; https://github.com/buildingSMART/bSDD
+- Why they matter: Third-highest contributor in the current GitHub snapshot for buildingSMART/bSDD.
+- Evidence: GitHub API snapshot found `klacol` with 83 contributions to `buildingSMART/bSDD` and profile name Klaus Aengenvoort.
+- Connected people/orgs/tools: Artur Tomczak; Erik/Baars-IT; Léon van Berlo; bSDD.
+- Score: 69
+- Status: candidate
+- Mental model: “Vocabulary as operational infrastructure” — BIM checks only become portable if terms/classes/properties are shared and machine-readable.
+- Actionability for Rhino Mind/AoA: Watch bSDD contributors for how classification terms can be attached to Rhino/Speckle elements without heavy BIM authoring.
+- Notes: Verify public writing and role before promotion.

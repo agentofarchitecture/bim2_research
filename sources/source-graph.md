@@ -17,6 +17,13 @@ Last updated: 2026-05-23.
 - Tom Van Mele → primary contributor → COMPAS
 - Chris Mackey → contributor → Ladybug Tools / ladybug-rhino
 - Ryan Schultz → practice/open-source voice → OpeningDesign + IfcOpenShell
+- André Borrmann → co-author / research-program node → MCP-server architecture, adaptive BIM extraction, BIMgent, TUM2TWIN
+- Jakob Beetz → co-author / semantic BIM lineage → MCP-server architecture + linked building data thinking
+- Pieter Pauwels → contributor → buildingSMART/ifcJSON; semantic BIM / linked building data source
+- Tobias Heimig-Elschner → lead author → MCP-server reference architecture for agentic BIM interaction
+- Sylvain Hellin → lead author → LLM-based adaptive BIM information extraction
+- Zihan Deng → lead author → BIMgent computer-use agents for BIM authoring
+- Klaus Aengenvoort → contributor → buildingSMART/bSDD
 
 ## Standards / concepts → implementation sources
 
@@ -27,6 +34,9 @@ Last updated: 2026-05-23.
 - Speckle object/data model → bridge between → Rhino/Grasshopper/Revit and web project data
 - COMPAS → computational design infrastructure for → Rhino/Grasshopper and Blender
 - Ladybug Tools → practice-grade environmental analysis in → Rhino/Grasshopper
+- bSDD → vocabulary / classification layer for → IDS requirements and semantic model properties
+- MCP → tool-calling interface for → reusable BIM agent adapters
+- Adaptive exploration → runtime discovery of → heterogeneous BIM/Rhino/Speckle model dialects
 
 ## Product / ecosystem connections
 
@@ -43,3 +53,6 @@ Last updated: 2026-05-23.
 - Soumya Madireddy et al. → LLM-driven code compliance checking → compliance preflight opportunity
 - Yu Hsiu Tung / Sam Rezvani / Fatemeh Asgharzadeh → IFC Whisperer → IFC knowledge graph + LLM querying
 - Meng Wang / G. Lilis / K. Katsigarakis → HVAC topology generation → BIM geometry checking + knowledge graphs
+- Tobias Heimig-Elschner / Changyu Du / Anna Scheuvens / André Borrmann / Jakob Beetz → MCP server reference architecture → API-agnostic agentic BIM interaction
+- Sylvain Hellin / Suhyung Jang / Stefan Fuchs / Stavros Nousias / André Borrmann → adaptive exploration → BIM information extraction from heterogeneous models
+- Zihan Deng / Changyu Du / Stavros Nousias / André Borrmann → BIMgent → autonomous building modelling via computer-use agents

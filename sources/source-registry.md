@@ -144,6 +144,66 @@ Last updated: 2026-05-23.
 - best_use: Investigate graph schema/query patterns.
 - notes: Semantic Scholar citation count was 0 at query time; verify full text.
 
+### Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction
+
+- url: https://arxiv.org/abs/2601.00809
+- type: paper / agent architecture
+- platform: arXiv / Semantic Scholar
+- entities: [MCP, BIM agents, IFC, LLM, tool adapters]
+- topics: [agentic BIM interaction, MCP servers, reusable BIM adapters, evaluation]
+- first_seen: 2026-05-23
+- last_checked: 2026-05-23
+- score: 82
+- status: promoted
+- why_it_matters: Directly relevant to Rhino Mind architecture because it separates MCP/tool-calling interfaces from authoring-tool-specific BIM APIs.
+- best_use: Blueprint for a Rhino/Speckle/IFC adapter contract and benchmark.
+- notes: arXiv `2601.00809v2`; authors Tobias Heimig-Elschner, Changyu Du, Anna Scheuvens, André Borrmann, Jakob Beetz. Semantic Scholar query returned 0 citations and 15 references at check time.
+
+### BIM Information Extraction Through LLM-based Adaptive Exploration
+
+- url: https://arxiv.org/abs/2605.01698
+- type: paper / agentic extraction method
+- platform: arXiv
+- entities: [IFC, BIM, LLM, adaptive exploration, ifc-bench]
+- topics: [information extraction, heterogeneous BIM, runtime structure discovery]
+- first_seen: 2026-05-23
+- last_checked: 2026-05-23
+- score: 79
+- status: promoted
+- why_it_matters: Strong pattern for messy real models: agents should discover local structure before answering or checking.
+- best_use: Design the Rhino Mind “inspect-before-answer” / model dialect mapper.
+- notes: arXiv `2605.01698v1`; lead author Sylvain Hellin; co-author André Borrmann.
+
+### buildingSMART bSDD repository
+
+- url: https://github.com/buildingSMART/bSDD
+- type: repo / standard implementation
+- platform: GitHub
+- entities: [buildingSMART, bSDD, classification, openBIM]
+- topics: [buildingSMART Data Dictionary, shared vocabulary, classifications, property semantics]
+- first_seen: 2026-05-23
+- last_checked: 2026-05-23
+- score: 84
+- status: promoted
+- why_it_matters: bSDD is the vocabulary layer that can make IDS/checks and model properties less office-specific.
+- best_use: Track people and examples around semantic classification for Rhino/Speckle metadata.
+- notes: GitHub API snapshot: top contributors include Artur Tomczak, Baars-IT/Erik, Klaus Aengenvoort, Léon van Berlo.
+
+### buildingSMART ifcJSON repository
+
+- url: https://github.com/buildingSMART/ifcJSON
+- type: repo / standard-adjacent implementation
+- platform: GitHub
+- entities: [buildingSMART, IFC, JSON, linked building data]
+- topics: [IFC serialization, web data, BIM exchange]
+- first_seen: 2026-05-23
+- last_checked: 2026-05-23
+- score: 72
+- status: candidate
+- why_it_matters: Possible bridge between IFC schemas and web/agent-readable data formats.
+- best_use: Track Jan Brouwer and Pieter Pauwels connection to graph/web-readable BIM.
+- notes: GitHub API snapshot: top contributors include Jan Brouwer and Pieter Pauwels.
+
 ## Blocked / weak sources
 
 - Generic vendor “AI designs whole buildings” pages without API, examples, implementation detail, or human-checkable outputs are not promoted.

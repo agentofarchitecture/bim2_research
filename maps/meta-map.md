@@ -108,3 +108,14 @@ Emerging synthesis:
 - Which checks/tools can be built without needing full Revit/BIM adoption?
 - What can be done with Rhino + Grasshopper + Speckle + LLM agents now?
 - What should remain human and craft-led?
+
+## 9. Agentic BIM needs adapters, benchmarks, and local dialect discovery
+
+Today’s strongest new cluster is around agentic BIM research: MCP-server reference architecture, adaptive BIM information extraction, BIM computer-use agents, and digital-twin benchmarks. The useful meta-shift is from “chatbot talks to BIM” toward a stack:
+
+- stable task primitives / MCP-like interface;
+- tool-specific adapters for Rhino, Speckle, IFC, Revit, Bonsai, and web viewers;
+- local model-dialect discovery before checks are applied;
+- repeatable benchmark tasks and evidence traces.
+
+Strategic implication: Rhino Mind should not begin as a general architectural copilot. It should begin as a reproducible agent harness for a few small tasks: inspect context, discover metadata conventions, run a check pack, patch a small piece of model data, and produce an auditable report.

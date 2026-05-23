@@ -39,3 +39,9 @@ Add someone here only if there is a plausible reason for Luke/AoA/Rhino Mind to 
 - Alan Rynne — verify current connector/interoperability focus.
 - Andrej730 — verify public identity and active IfcOpenShell areas.
 - Andrew Wallace — verify Speckle server/product role and public writing.
+
+### Research interview candidates
+
+- **André Borrmann / TUM agentic BIM cluster** — ask what minimal benchmark would prove a Rhino/Speckle BIM agent is useful rather than merely impressive.
+- **Jakob Beetz / Pieter Pauwels** — ask how much linked-data/semantic-web structure is useful for small-practice project memory before maintenance overhead dominates.
+- **Tobias Heimig-Elschner** — watch for code or follow-up artifacts around MCP server architecture; potential technical interview on adapter contracts.
