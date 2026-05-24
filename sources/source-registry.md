@@ -348,6 +348,24 @@ Last updated: 2026-05-24.
 - notes: Transcript extraction was blocked by YouTube cloud-IP protections during 2026-05-24 pass; use metadata plus follow-on primary-source verification until transcript access is solved.
 
 
+### BIM 2.0 company source cluster — ATN + AEC Magazine + primary product pages
+
+- url: sources/bim2-company-sources-2026-05-24.md
+- type: source cluster / company landscape evidence map
+- platform: repo synthesis + web sources
+- entities: [BIM 2.0, ATN, AEC Magazine, Snaptrude, Arcol, Motif, Qonic, Hypar, Skema, Speckle]
+- topics: [BIM 2.0 companies, Rebuilding BIM, agentic BIM, next-generation AEC software]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 87
+- status: promoted
+- why_it_matters: Consolidates the strongest public company list sources into one reusable evidence map: ATN's BIM 2.0 overview/interview graph, AEC Magazine's independent BIM 2.0/Rebuilding BIM coverage, and primary company pages/docs/GitHub.
+- best_use: Start company landscape updates here before broad search; separate core BIM 2.0 authoring companies from adjacent AI/design/data/infrastructure companies.
+- links_out_to: [https://www.youtube.com/watch?v=dturff3XgSk, https://aecmag.com/bim/defining-bim-2-0/, https://aecmag.com/bim/the-agentic-future-of-bim/]
+- linked_from: [maps/company-landscape.md, daily/2026-05-24.md]
+- notes: Strongest direct BIM 2.0 authoring companies identified in this pass are Snaptrude, Arcol, Motif, and Qonic. Broader relevant set includes Hypar, Skema, Finch, Speckle, That Open Company, RunChat, Giraffe, TestFit, Augmenta, SWAPP, Higharc, Illoca, Codesign, qbiq, Pirros and others.
+
 ### RunChat Rhino / Grasshopper docs
 
 - url: https://docs.runchat.com/plugins/rhino
