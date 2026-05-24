@@ -163,3 +163,15 @@ IfcLLM adds a useful model family: do not search for a single perfect BIM repres
 - **Limit/blind spot:** The paper is fresh and needs code/dataset verification; IFC models may be cleaner than messy Rhino practice models.
 - **Rhino Mind implication:** Build memory indexes in pairs: object/property table + relationship graph + retrieval trace. Make the “which view answered this?” explicit in the UI.
 - **New model seed:** **Two-lens project memory** — every answer should say whether it came from object facts, relationship topology, precedent memory, or a combination.
+
+
+### Canvas agent inside the design environment
+
+RunChat’s Rhino/GH docs and McNeel Europe workshop signal a practical adoption pattern: architects may accept AI sooner when it appears as a **canvas/workflow agent inside tools they already use**, not as a separate BIM platform.
+
+- **Person/source:** Gwyllim Jahn / James Pazzi / RunChat docs and McNeel Europe workshop.
+- **Core lens:** AI can act on screenshots, geometry, scripts, and Grasshopper canvases from inside the live design environment.
+- **Why it matters:** This is close to Rhino Mind’s territory. It validates that Rhino/GH users want AI help at the scripting/component/workflow level.
+- **Limit/blind spot:** Canvas agents can become clever automation surfaces without understanding project semantics, office standards, requirement intent, or evidence/provenance.
+- **Rhino Mind implication:** Rhino Mind should borrow the in-environment adoption pattern but add the missing semantic sidecar: project memory, local dialect discovery, IDS-lite checks, and auditable findings.
+- **New model seed:** **Canvas + semantic sidecar** — let the canvas/agent operate tools, but let the sidecar decide what the model means, what standards apply, and what evidence should be recorded.

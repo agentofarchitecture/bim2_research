@@ -92,3 +92,12 @@ Last updated: 2026-05-24.
 - `"Finch3D" "Jesper Wallgren" "Pamela Wallgren"`
 - `"ATN" "QONIC" "GIRAFFE" workshop`
 - `"RUNCHAT.APP" "Rhino" "Archi-Tech Talk"`
+
+
+## 2026-05-24 RunChat/Rhino additions
+
+- `"Runchat for Rhino" "Grasshopper" "agent"`
+- `"Gwyllim Jahn" "Runchat" "Rhino"`
+- `"James Pazzi" "Runchat" "McNeel Europe"`
+- `"RunChat" "Rhino Python" "Grasshopper"`
+- `"AI" "Grasshopper" "canvas" "agent" "Rhino"`

@@ -81,3 +81,9 @@ Add new opportunities here only when they are specific enough to test or discuss
    - Export a small Rhino/Speckle model into two synchronized indexes: object/property table and relationship graph.
    - Ask 10 natural-language questions and record whether each is best answered by table, graph, or both.
    - Use this as a product demo for “project memory you can inspect,” not black-box chat.
+
+
+14. **RunChat comparator teardown for Rhino Mind**
+   - Reproduce RunChat’s visible Rhino/GH task categories from docs: screenshot-to-workflow, geometry transfer, Rhino Python generation, Grasshopper canvas explanation/component wiring.
+   - For each task, add the Rhino Mind semantic sidecar version: identify object meaning, attach office vocabulary, run a check, retrieve prior detail/tool, and export evidence.
+   - Output a feature matrix: “RunChat-like automation” vs “Rhino Mind semantic project intelligence.”

@@ -33,7 +33,7 @@ Purpose: maintain a grounded company/product map for BIM 2.0 so the people map i
 
 - **Speckle** — connector/data platform and open AEC data layer; ATN video `67aBKPTREo0` with Dimitrie Stefanescu and Matteo Cominetti; workshops with HENN/X-Figura (`gqkffbFHrk8`).
 - **That Open Company / That Open Engine** — web openBIM components/developer tooling; already represented in Top 100 through Antonio González Viegas.
-- **RunChat** — Rhino-oriented AI/tooling interface; ATN video `PPqDz4H2bmg`; direct Rhino Mind comparator.
+- **RunChat** — Rhino/Grasshopper-oriented design-agent and visual-canvas interface; ATN video `PPqDz4H2bmg`; direct Rhino Mind comparator. Primary docs verified 2026-05-24: `docs.runchat.com/plugins/rhino` describes sending screenshots/geometry to Runchat, generating Rhino Python scripts, importing results back into the viewport, and beta Grasshopper agent actions that read/explain/connect components. McNeel Europe workshop page names Gwyllim Jahn and James Pazzi as tutors.
 - **NonicaTab** — Revit + Claude/AI connector; adjacent implementation pattern for authoring-tool AI plugins.
 
 ### 5. Product/manufacturer BIM object workflows
@@ -68,3 +68,12 @@ The ATN/company graph suggests BIM 2.0 is not one category. It is a bundle of co
 - agentic tool control inside existing authoring tools.
 
 Rhino Mind’s likely wedge is different: **contextual tooling and project memory inside Rhino/Grasshopper practice**, with enough semantic structure to connect to Speckle/IFC/IDS later.
+
+
+## 2026-05-24 RunChat comparator note
+
+- **Product wedge:** AI workflow canvas + chat/design agents embedded into Rhino and Grasshopper.
+- **Evidence artifacts checked:** ATN oEmbed title for `PPqDz4H2bmg`; Runchat Rhino docs; Runchat `llms.txt`; McNeel Europe workshop post; Gwyllim Jahn Substack post “Runchat in Rhino”.
+- **Integration surface:** Rhino PackageManager install, browser/plugin connection to active Rhino document, screenshot/geometry transfer, Rhino Python script generation/execution, Grasshopper canvas reading and component connection.
+- **Adoption friction:** immediate for Rhino/GH users, but still primarily a canvas/agent/scripting layer; project semantics, audit trails, requirements, and office/project memory are not the visible differentiator in the checked docs.
+- **Rhino Mind implication:** do not compete only on “AI writes Rhino Python.” Compete on semantic sidecar behavior: understand the project dialect, retrieve office tools/details, run check packs, and produce evidence.

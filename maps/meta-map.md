@@ -139,3 +139,16 @@ The IfcLLM / hybrid IFC querying signal strengthens the idea that BIM 2.0 projec
 - **graph lens:** containment, adjacency, systems, dependencies, provenance, requirement links.
 
 Strategic implication: Rhino Mind’s first memory prototype should avoid “just vectorize the model.” Start with an object/property table plus a relationship graph, then expose which lens produced an answer.
+
+
+## 11. Canvas agents validate the habitat; semantic sidecars define the moat
+
+RunChat’s Rhino/GH docs and McNeel Europe workshop show that the adoption habitat for Rhino Mind is real: AI can sit inside Rhino/Grasshopper, see screenshots/geometry, generate Rhino Python, and operate Grasshopper canvases. That is a strong product signal, but it also clarifies the differentiation problem.
+
+Strategic read:
+
+- **Habitat:** designers want AI inside live design tools, not only in standalone BIM platforms.
+- **Commodity risk:** script generation and canvas operation will become common.
+- **Moat:** project semantics, office memory, requirement/check packs, provenance, and small-practice adoption workflows.
+
+New model: **Canvas + semantic sidecar** — let the canvas/agent operate the environment, but let Rhino Mind’s sidecar maintain meaning, standards, memory, and evidence.

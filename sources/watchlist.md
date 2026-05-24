@@ -62,6 +62,10 @@
 - bSDD MCP server: https://github.com/JardiMargalefAgusti/bSDD-mcp
 - bSDD-Toolkit: https://github.com/c-mellueh/bSDD-Toolkit
 
+- RunChat Rhino docs: https://docs.runchat.com/plugins/rhino
+- RunChat docs index for agent/API surface: https://docs.runchat.com/llms.txt
+- McNeel Europe RunChat workshop page: https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html
+
 ## Signal quality rubric
 
 Each source should be scored quickly:

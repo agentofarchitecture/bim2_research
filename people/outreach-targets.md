@@ -51,3 +51,14 @@ Add someone here only if there is a plausible reason for Luke/AoA/Rhino Mind to 
 - **Callum Sykes / Steve Fuchs (McNeel RhinoMCP)** — ask which Rhino MCP primitives are stable, what guardrails are planned, and where semantic/project-context responsibilities should sit outside raw tool control.
 - **Bharathi Kannan Nithyanantham / MCP4IFC authors** — ask what IFC manipulation tasks are currently reliable enough for small benchmark comparisons against RhinoMCP/Speckle workflows.
 - **Georg Dangl / BCF-API contributors** — ask how lightweight BCF/OpenCDE-style issue objects could support model-check findings from Rhino-heavy practices.
+
+
+### RunChat / Rhino AI comparator targets
+
+- **Gwyllim Jahn** — RunChat/Rhino/GH idea source and workshop tutor.
+  - Why: public artifact trail around connecting Runchat workflows to Rhino and Grasshopper; useful comparator for Rhino Mind’s in-environment agent UX.
+  - Potential ask: which Rhino/GH tasks practitioners actually trust AI to automate, and where do semantics/provenance become necessary?
+
+- **James Pazzi** — RunChat workshop tutor / adoption node.
+  - Why: practical training signal from McNeel Europe; likely to reveal what learners can reproduce versus what remains demo-only.
+  - Potential ask: what tasks in the RunChat workshop repeatedly create value for architects, and which need project context or office standards?

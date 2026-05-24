@@ -80,3 +80,34 @@ For each company/interview:
 ## Immediate caveat
 
 YouTube transcript extraction from this VPS was blocked by YouTube’s cloud-IP protections during the 2026-05-24 pass. The current map is therefore grounded in YouTube search/title/chapter metadata plus known company context. Future runs should retry transcripts with a better YouTube access path or use official podcasts/blog pages if ATN mirrors content elsewhere.
+
+
+## 2026-05-24 RunChat / Rhino comparator pass
+
+Transcript retry status: `youtube-transcript-api` is installed, but YouTube returned `RequestBlocked` for `PPqDz4H2bmg`, `dturff3XgSk`, `DY7AP1rj0PQ`, and `k298u6ejRFw` from this VPS. Continued with oEmbed/title verification plus primary product/docs checks.
+
+Verified YouTube oEmbed titles:
+
+| Theme | Video | ID | Verified title |
+|---|---|---:|---|
+| RunChat / Rhino | Archi-Tech Talk E10 | `PPqDz4H2bmg` | “Archi-Tech Talk E10: Supercharging Rhino with RUNCHAT.APP” |
+| BIM 2.0 overview | ATN overview | `dturff3XgSk` | “The Rise of BIM 2.0: 9 Startups Redefining the Future of Architecture Software” |
+| Arcol | EP 63 | `DY7AP1rj0PQ` | “Arcol: Building the Figma of the AEC Industry with Founder Paul O’Carroll” |
+| Snaptrude | EP 61 | `k298u6ejRFw` | “Leading the BIM 2.0 Revolution: Snaptrude’s Vision for AEC Software with Altaf Ganihar” |
+
+RunChat primary-source grounding:
+
+- Docs: https://docs.runchat.com/plugins/rhino
+- Docs index: https://docs.runchat.com/llms.txt
+- McNeel Europe workshop: https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html
+- Gwyllim Jahn post: https://gwyllim.substack.com/p/runchat-in-rhino
+
+Useful extracted claims from primary/docs sources:
+
+- Runchat for Rhino sends screenshots and geometry to Runchat, generates Python scripts, and imports results back into the viewport.
+- Same install enables Runchat in Grasshopper.
+- Grasshopper agent beta can read the canvas, explain definitions/components, search for components, add components, and connect/disconnect components.
+- Runchat exposes a broader API/workflow/canvas model: run workflows by ID, trigger jobs, read/modify a canvas, and schedule tasks.
+- McNeel Europe workshop page names **Gwyllim Jahn** and **James Pazzi** as tutors and frames Runchat as “a design agent and visual canvas for automating creative processes.”
+
+Interpretation: RunChat is the most direct ATN-linked comparator for Rhino Mind so far, but its visible wedge is **agentic canvas + scripting inside Rhino/GH**. Rhino Mind should differentiate with project semantics, office memory, check packs, and evidence/provenance.

@@ -370,3 +370,31 @@ Every strong candidate should have a mental-model note, even if rough.
 - Mental model: “AI as early-design co-pilot for option generation and constraint feedback.”
 - Actionability for Rhino Mind/AoA: Separate early-stage generation signals from Rhino Mind’s likely strength in contextual in-model tool assistance.
 - Notes: Needs transcript/official source review.
+
+
+### Gwyllim Jahn
+
+- Category: Rhino/Grasshopper AI tooling / RunChat / design technology
+- Current org / affiliation: RMIT / Fologram / RunChat connection per McNeel Europe workshop page; verify exact current role.
+- Links: https://gwyllim.substack.com/p/runchat-in-rhino ; https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html ; https://docs.runchat.com/plugins/rhino
+- Why they matter: Publicly explains and teaches RunChat-in-Rhino workflows, making him a concrete idea-source for agentic Rhino/GH tooling rather than generic AEC AI commentary.
+- Evidence: Substack post “Runchat in Rhino” describes building a plugin to connect Runchat workflows to Rhino and Grasshopper; McNeel Europe workshop lists Gwyllim Jahn as tutor for RunChat.
+- Connected people/orgs/tools: RunChat; James Pazzi; McNeel Europe; Rhino; Grasshopper; Fologram; ATN RunChat episode `PPqDz4H2bmg`.
+- Score: 72
+- Status: candidate / near-promotion after role and product authorship are verified
+- Mental model: “Canvas agent inside the design environment” — use a visual AI workflow canvas plus chat agents to generate scripts, move geometry, and operate Grasshopper/Rhino from within the designer’s existing tool habitat.
+- Limits/blind spots: visible materials emphasize creative automation and scripting more than BIM semantics, requirements, provenance, or liability-aware checks.
+- Actionability for Rhino Mind/AoA: Treat RunChat as a live comparator; prototype the semantic layer that RunChat docs do not foreground: project dialect discovery, IDS-lite checks, office memory retrieval, and evidence reports.
+
+### James Pazzi
+
+- Category: Rhino/Grasshopper AI tooling / RunChat education
+- Current org / affiliation: RunChat, per McNeel Europe workshop page; verify exact role.
+- Links: https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html ; https://docs.runchat.com/plugins/rhino
+- Why they matter: Appears as a named tutor for McNeel Europe’s RunChat online workshop, making him a practical adoption/training node for Rhino/GH AI workflows.
+- Evidence: McNeel Europe post “Runchat online workshop, April 21-23” lists James Pazzi as tutor and describes RunChat use cases including generated Python scripts, Grasshopper generative design models, and practice automation cases.
+- Connected people/orgs/tools: Gwyllim Jahn; RunChat; McNeel Europe; Rhino; Grasshopper.
+- Score: 62
+- Status: candidate / watch
+- Mental model: “AI workflow training as adoption bridge” — new AI design tools spread when practitioners can copy concrete scripts, Grasshopper patterns, and case-study workflows.
+- Actionability for Rhino Mind/AoA: Watch workshop/tutorial materials for the tasks architects actually ask AI to automate in Rhino/GH.

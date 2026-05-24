@@ -346,3 +346,22 @@ Last updated: 2026-05-24.
 - links_out_to: [https://www.youtube.com/watch?v=dturff3XgSk, https://www.youtube.com/watch?v=pwXN4CZ_nR8]
 - linked_from: [sources/youtube-atn-grounding.md, daily/2026-05-24.md]
 - notes: Transcript extraction was blocked by YouTube cloud-IP protections during 2026-05-24 pass; use metadata plus follow-on primary-source verification until transcript access is solved.
+
+
+### RunChat Rhino / Grasshopper docs
+
+- url: https://docs.runchat.com/plugins/rhino
+- type: product docs / Rhino-GH AI workflow source
+- platform: web docs
+- entities: [RunChat, Rhino, Grasshopper, McNeel, AI agents]
+- topics: [Rhino scripting, Grasshopper agents, design agents, visual AI canvas, in-authoring automation]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 82
+- status: promoted
+- why_it_matters: Direct primary-source comparator for Rhino Mind; documents an AI workflow canvas and agent surface inside Rhino/GH, including screenshots/geometry transfer, Rhino Python generation, and Grasshopper canvas actions.
+- best_use: Feature-diff against Rhino Mind and identify where semantic project memory/checking can differentiate.
+- links_out_to: [https://docs.runchat.com/llms.txt, https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html, https://gwyllim.substack.com/p/runchat-in-rhino, https://www.youtube.com/watch?v=PPqDz4H2bmg]
+- linked_from: [sources/youtube-atn-grounding.md, maps/company-landscape.md, daily/2026-05-24.md]
+- notes: YouTube transcript for ATN RunChat episode was blocked from VPS, but product docs and McNeel Europe post were reachable.

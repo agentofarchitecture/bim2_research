@@ -96,3 +96,13 @@ Last updated: 2026-05-24.
 - Jesper Wallgren / Pamela Wallgren → interviewees → Finch → AI-assisted early design thesis
 - ATN workshops → connect → Qonic + Giraffe, Speckle + HENN/X-Figura, Finch + KPF
 - RunChat ATN episode → direct comparator → Rhino Mind contextual tooling / Rhino AI interface
+
+
+## 2026-05-24 RunChat primary-source additions
+
+- ATN video `PPqDz4H2bmg` → verifies public source node → “Supercharging Rhino with RUNCHAT.APP”.
+- RunChat docs → expose → Rhino screenshots/geometry transfer, Rhino Python generation/execution, Grasshopper agent beta.
+- RunChat `llms.txt` → exposes → canvas API, workflow run endpoint, job triggers, scheduling, agent capabilities.
+- Gwyllim Jahn → writes/teaches → RunChat in Rhino / connecting Runchat workflows to Rhino and Grasshopper.
+- James Pazzi → teaches with → Gwyllim Jahn → McNeel Europe RunChat workshop.
+- RunChat → competes with / informs → Rhino Mind in-environment AI tooling, but leaves opportunity for → semantic project-memory sidecar and IDS-lite/evidence workflows.
