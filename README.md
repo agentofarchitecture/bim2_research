@@ -23,8 +23,8 @@ A scheduled Steve job runs daily and updates this repo with:
 ## Repository structure
 
 - `daily/` — daily research notes, one markdown file per run
-- `maps/` — evolving synthesis maps and taxonomies
-- `sources/` — tracked sources, search queries, feeds, and watchlists
+- `maps/` — evolving synthesis maps and taxonomies, including `maps/company-landscape.md`
+- `sources/` — tracked sources, search queries, feeds, watchlists, and `sources/youtube-atn-grounding.md`
 - `opportunities/` — practical things we could build, test, or commercialise
 - `briefs/` — higher-level periodic summaries
 
@@ -48,3 +48,8 @@ Track both:
 
 1. **Fine grain:** concrete papers, tools, standards, companies, implementation patterns.
 2. **Meta grain:** structural shifts, adoption barriers, business models, and strategic openings for Rhino Mind / Agents of Architecture.
+
+## Current grounding sources
+
+- `sources/youtube-atn-grounding.md` — ATN / ArchiTech Network / Oliver Thomas YouTube interview graph.
+- `maps/company-landscape.md` — BIM 2.0 company/product landscape seeded from ATN and adjacent sources.

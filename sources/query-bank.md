@@ -76,3 +76,19 @@ Last updated: 2026-05-24.
 - `"IDS" "visual editor" "buildingSMART" pushed:>2026-01-01`
 - `"BIM LLM" "Graph RAG" "IFC" pushed:>2026-01-01`
 - `"Speckle" "Claude" "skills" "GraphQL"`
+
+
+### YouTube / ATN
+
+- `"ArchiTech Network" "BIM 2.0"`
+- `"Oliver Thomas" "ArchiTech Network" "BIM 2.0"`
+- `"Olly Thomas" "BIM 2.0" "ArchiTech Network"`
+- `"The Rise of BIM 2.0" "9 Startups"`
+- `"Arcol" "Paul O'Carroll" "ArchiTech Network"`
+- `"Motif" "Jens Majdal Kaarsholm" "BIM"`
+- `"Giraffe" "Rob Asher" "ArchiTech Network"`
+- `"Snaptrude" "Altaf Ganihar" "BIM 2.0"`
+- `"Hypar" "Ian Keough" "Andrew Heumann" "ArchiTech Network"`
+- `"Finch3D" "Jesper Wallgren" "Pamela Wallgren"`
+- `"ATN" "QONIC" "GIRAFFE" workshop`
+- `"RUNCHAT.APP" "Rhino" "Archi-Tech Talk"`

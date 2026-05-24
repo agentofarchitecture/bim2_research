@@ -82,3 +82,17 @@ Last updated: 2026-05-24.
 - Ryo Kanazawa / Koyo Hidaka / Teppei Miyamoto / Takayuki Kato → Ishigaki-IDS-Bench repo → benchmark for generating buildingSMART IDS XML from BIM information requirements
 - Louis True → ids-flow + agentic-bim-team → practical but early signal around visual IDS authoring and agentic BIM workflows; verify before people promotion
 - mac999/BIM_LLM_code_agent → Vector + Graph RAG over BIM/IFC → candidate implementation source; inspect code quality before promotion
+
+
+## 2026-05-24 ATN / YouTube grounding additions
+
+- Oliver / Olly Thomas → hosts / curates → ArchiTech Network / ATN → interview graph for BIM 2.0 company landscape
+- ATN BIM 2.0 overview `dturff3XgSk` → names → Snaptrude, Arcol, Giraffe, Motif, Qonic, Spacio.ai, Finch, Hypar, Speckle
+- Paul O’Carroll → founder/interviewee → Arcol → collaborative web-native BIM / “Figma for AEC” thesis
+- Altaf Ganihar → founder/interviewee → Snaptrude → web design-to-BIM / AI-driven design thesis
+- Rob Asher → founder/interviewee → Giraffe → citybuilder / site feasibility thesis
+- Jens Majdal Kaarsholm → interviewee → Motif → practice-to-product BIM disruption thesis
+- Ian Keough / Andrew Heumann → interviewees → Hypar → computational design automation thesis
+- Jesper Wallgren / Pamela Wallgren → interviewees → Finch → AI-assisted early design thesis
+- ATN workshops → connect → Qonic + Giraffe, Speckle + HENN/X-Figura, Finch + KPF
+- RunChat ATN episode → direct comparator → Rhino Mind contextual tooling / Rhino AI interface

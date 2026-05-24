@@ -272,3 +272,101 @@ Every strong candidate should have a mental-model note, even if rough.
 - Mental model: “Dual representation beats one perfect schema” — IFC should be transformed into complementary relational and graph views, then queried with iterative retry/refine reasoning.
 - Actionability for Rhino Mind/AoA: Prototype Rhino/Speckle project memory with two backing views: a simple table of object properties/geometry plus a graph of relationships; route questions to the view that fits the task.
 - Notes: Search for IfcLLM code/dataset next run; compare against IFC Whisperer and adaptive exploration papers.
+
+### Oliver / Olly Thomas
+
+- Category: YouTube/interview graph / BIM 2.0 landscape mapping
+- Current org / affiliation: ArchiTech Network / ATN
+- Links: https://www.youtube.com/channel/UCrLHBCOz211YirQRg2QVJvA ; `pwXN4CZ_nR8` ; `dturff3XgSk`
+- Why they matter: ATN has become a dense public interview/source graph for BIM 2.0 companies and practice-tech conversations, including Giraffe, Arcol, Motif, Hypar, Snaptrude, Speckle, Finch, and others.
+- Evidence: YouTube search/title metadata found ATN BIM 2.0 overview, ATN Summit 2026 “The Rise of Architect 3.0”, and multiple founder/company interviews.
+- Connected people/orgs/tools: ArchiTech Network; Giraffe; Arcol; Motif; Hypar; Snaptrude; Speckle; Finch; Qonic; RunChat; KPF; BIG.
+- Score: 76
+- Status: candidate / likely promotion after transcript or primary-source review
+- Mental model: “Architect 3.0 / practice-tech network graph” — the future architect is partly a tool-literate operator who navigates a new ecosystem of web BIM, automation, AI, and data products.
+- Actionability for Rhino Mind/AoA: Use ATN as a starting source graph for company/person interviews, not as final truth; mine each episode for product wedge, adoption friction, and mental model.
+- Notes: Transcript extraction from the VPS was blocked by YouTube cloud-IP protections; future runs should retry via another access path or use official episode pages/podcasts.
+
+### Paul O’Carroll
+
+- Category: product / collaborative web BIM
+- Current org / affiliation: Arcol
+- Links: ATN video `DY7AP1rj0PQ` — “Arcol: Building the Figma of the AEC Industry with Founder Paul O’Carroll”
+- Why they matter: Arcol is one of the core ATN BIM 2.0 companies, carrying the web-native collaboration thesis for AEC authoring.
+- Evidence: ATN episode title metadata; company primary sources still to verify.
+- Connected people/orgs/tools: Arcol; Oliver Thomas; collaborative BIM; browser-based design tools.
+- Score: 68
+- Status: candidate
+- Mental model: “Figma for AEC” — building design software should be collaborative, browser-native, and live rather than file/exchange based.
+- Actionability for Rhino Mind/AoA: Compare Arcol’s collaboration wedge against Rhino Mind’s contextual-tooling wedge: where does Rhino still win because designers already work there?
+- Notes: Needs transcript/official source review.
+
+### Altaf Ganihar
+
+- Category: product / web BIM + AI-driven design
+- Current org / affiliation: Snaptrude
+- Links: ATN video `k298u6ejRFw`; ATN Talk `t9pc5TPIsco`
+- Why they matter: Snaptrude is a core BIM 2.0 company in the ATN overview, focused on web-based design-to-BIM workflows.
+- Evidence: ATN episode title “Leading the BIM 2.0 Revolution: Snaptrude’s Vision for AEC Software”.
+- Connected people/orgs/tools: Snaptrude; Oliver Thomas; design-to-BIM; AI-driven design.
+- Score: 67
+- Status: candidate
+- Mental model: “Design-to-BIM without legacy authoring friction.”
+- Actionability for Rhino Mind/AoA: Study where Snaptrude removes friction and where Rhino users still need local/contextual intelligence.
+- Notes: Needs primary-source/product verification.
+
+### Rob Asher
+
+- Category: product / city-building + site feasibility
+- Current org / affiliation: Giraffe
+- Links: ATN video `TiYFZjIHEcg`; ATN Talk `5HvYeBNere0`
+- Why they matter: Giraffe appears repeatedly in the ATN BIM 2.0 landscape as a citybuilder / architects-and-developers planning platform.
+- Evidence: ATN episode title “Giraffe: The new citybuilder for Architects & Developers”.
+- Connected people/orgs/tools: Giraffe; Qonic; Oliver Thomas; site feasibility; urban planning.
+- Score: 67
+- Status: candidate
+- Mental model: “Fast city/project feasibility as design intelligence.”
+- Actionability for Rhino Mind/AoA: Compare Giraffe’s upstream feasibility wedge with Rhino Mind’s in-authoring contextual tool wedge.
+- Notes: Needs transcript/official source review.
+
+### Jens Majdal Kaarsholm
+
+- Category: product / BIM 2.0 from practice to product
+- Current org / affiliation: Motif; former BIG connection per ATN episode title
+- Links: ATN video `3bI-fXW74rY`
+- Why they matter: Motif is one of Luke’s named companies and appears as an explicit BIM-disruption story in ATN.
+- Evidence: ATN EP65 title “Motif: Why I Left BIG and Joined Motif to Disrupt BIM”.
+- Connected people/orgs/tools: Motif; BIG; Oliver Thomas; BIM 2.0.
+- Score: 69
+- Status: candidate
+- Mental model: “Practice frustration becomes BIM product thesis.”
+- Actionability for Rhino Mind/AoA: Extract which pain points a former BIG workflow person thinks are worth replacing, then compare to Rhino/AoA pain.
+- Notes: High-priority next transcript/primary-source target.
+
+### Ian Keough and Andrew Heumann
+
+- Category: product / computational automation
+- Current org / affiliation: Hypar
+- Links: ATN video `nmOa70lOnv0`
+- Why they matter: Hypar represents a mature computational design automation thesis, and both people are high-signal for design automation/productized functions.
+- Evidence: ATN EP64 title “Hypar: Automating Building Design with AI & Automation”.
+- Connected people/orgs/tools: Hypar; Oliver Thomas; building design automation; computational design.
+- Score: 74
+- Status: candidate / near-promotion
+- Mental model: “Buildings as composable automation functions.”
+- Actionability for Rhino Mind/AoA: Compare Hypar’s function/platform model with Rhino Mind’s tooling-on-demand model.
+- Notes: Split into separate entries after deeper source review.
+
+### Jesper Wallgren and Pamela Wallgren
+
+- Category: product / AI-assisted early design
+- Current org / affiliation: Finch / Finch3D
+- Links: ATN video `OqyUj-Lfy6g`
+- Why they matter: Finch is part of the ATN BIM 2.0/startup landscape around architects and AI designing together.
+- Evidence: ATN EP58 title “Where Architects and AI Design Together | Finch3D”.
+- Connected people/orgs/tools: Finch; Oliver Thomas; AI design; early-stage planning.
+- Score: 66
+- Status: candidate
+- Mental model: “AI as early-design co-pilot for option generation and constraint feedback.”
+- Actionability for Rhino Mind/AoA: Separate early-stage generation signals from Rhino Mind’s likely strength in contextual in-model tool assistance.
+- Notes: Needs transcript/official source review.

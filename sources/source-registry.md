@@ -327,3 +327,22 @@ Last updated: 2026-05-24.
 - links_out_to: [https://arxiv.org/abs/2605.22079v1]
 - linked_from: [daily/2026-05-24.md]
 - notes: GitHub API snapshot: `onestruction/Ishigaki-IDS-Bench`, 1 star, updated 2026-05-24, default branch `main`.
+
+
+### ArchiTech Network / ATN YouTube channel
+
+- url: https://www.youtube.com/channel/UCrLHBCOz211YirQRg2QVJvA
+- type: YouTube channel / interview graph
+- platform: YouTube
+- entities: [ArchiTech Network, ATN, Oliver Thomas, Olly Thomas, BIM 2.0, architecture technology]
+- topics: [BIM 2.0 companies, architecture technology, practice workflows, founder interviews, workshops]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 88
+- status: promoted
+- why_it_matters: Dense public source graph for BIM 2.0 companies and people; Luke specifically flagged ATN/Oliver as a required grounding source.
+- best_use: Start every company/person landscape pass by checking ATN interviews and workshops, then verify claims against company primary sources.
+- links_out_to: [https://www.youtube.com/watch?v=dturff3XgSk, https://www.youtube.com/watch?v=pwXN4CZ_nR8]
+- linked_from: [sources/youtube-atn-grounding.md, daily/2026-05-24.md]
+- notes: Transcript extraction was blocked by YouTube cloud-IP protections during 2026-05-24 pass; use metadata plus follow-on primary-source verification until transcript access is solved.
