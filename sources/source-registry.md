@@ -291,3 +291,39 @@ Last updated: 2026-05-24.
 ## Blocked / weak sources
 
 - Generic vendor “AI designs whole buildings” pages without API, examples, implementation detail, or human-checkable outputs are not promoted.
+
+### IfcLLM / Hybrid IFC Querying paper
+
+- url: https://arxiv.org/abs/2605.13236
+- type: paper / IFC querying framework
+- platform: arXiv / Semantic Scholar
+- entities: [IFC, IfcLLM, knowledge graph, relational representation, LLM]
+- topics: [natural language BIM querying, IFC, graph representation, relational data, retry-and-refine reasoning]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 80
+- status: promoted
+- why_it_matters: Strong source for project-memory architecture because it avoids forcing IFC into a single representation; graph handles topology, relational data handles properties/geometry.
+- best_use: Blueprint for Rhino/Speckle memory indexes and question routing.
+- links_out_to: [https://arxiv.org/abs/2605.13236]
+- linked_from: [daily/2026-05-24.md]
+- notes: Authors Rabindra Lamsal, Sisi Zlatanova, Haowen Xu, Yafei Sun, Johnson Xuesong Shen. Semantic Scholar check on 2026-05-24 showed 0 citations; abstract reports 93.3–100% first-attempt accuracy on 30 scenarios / three IFC models.
+
+### Ishigaki-IDS-Bench repository
+
+- url: https://github.com/onestruction/Ishigaki-IDS-Bench
+- type: repo / benchmark dataset
+- platform: GitHub
+- entities: [IDS, buildingSMART, LLM, BIM requirements]
+- topics: [IDS XML generation, BIM information requirements, benchmarks]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 76
+- status: promoted
+- why_it_matters: Converts the earlier Ishigaki-IDS-Bench paper from a paper-only lead into an inspectable artifact for testing brief/requirements → IDS generation.
+- best_use: Seed a Rhino Mind IDS-lite benchmark and compare generated check packs against buildingSMART IDS XML.
+- links_out_to: [https://arxiv.org/abs/2605.22079v1]
+- linked_from: [daily/2026-05-24.md]
+- notes: GitHub API snapshot: `onestruction/Ishigaki-IDS-Bench`, 1 star, updated 2026-05-24, default branch `main`.

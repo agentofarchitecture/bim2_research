@@ -74,3 +74,11 @@ Last updated: 2026-05-24.
 
 - Bharathi Kannan Nithyanantham / Tobias Sesterhenn / Ashwin Nedungadi / Sergio Peral Garijo / Janis Zenkner / Christian Bartelt / Stefan Lüdtke → MCP4IFC → IFC-based building design using LLMs and MCP
 - Hanlong Wan / Weili Xu / Michael Rosenberg / Jian Zhang / Aysha Siddika → Automatic Building Code Review case study → BIM extraction + RAG/MCP agent pipelines
+
+## 2026-05-24 graph additions
+
+- Rabindra Lamsal / Sisi Zlatanova / Haowen Xu / Yafei Sun / Johnson Xuesong Shen → IfcLLM → hybrid relational + graph representation for natural-language IFC querying
+- IfcLLM → complements / should be compared with → IFC Whisperer, adaptive BIM information extraction, Multi-Agent GraphRAG
+- Ryo Kanazawa / Koyo Hidaka / Teppei Miyamoto / Takayuki Kato → Ishigaki-IDS-Bench repo → benchmark for generating buildingSMART IDS XML from BIM information requirements
+- Louis True → ids-flow + agentic-bim-team → practical but early signal around visual IDS authoring and agentic BIM workflows; verify before people promotion
+- mac999/BIM_LLM_code_agent → Vector + Graph RAG over BIM/IFC → candidate implementation source; inspect code quality before promotion

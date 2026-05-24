@@ -258,3 +258,17 @@ Every strong candidate should have a mental-model note, even if rough.
 - Mental model: “Agent control needs design-technology translation” — raw primitives only matter when designers can understand and trust them.
 - Actionability for Rhino Mind/AoA: Watch for talks, examples, or docs that reveal intended design workflows around RhinoMCP.
 - Notes: Needs more public technical artifacts before promotion.
+
+### Rabindra Lamsal
+
+- Category: research / IFC querying + hybrid graph-relational representations
+- Current org / affiliation: to verify; co-authors include Sisi Zlatanova, Haowen Xu, Yafei Sun, Johnson Xuesong Shen.
+- Links: https://arxiv.org/abs/2605.13236
+- Why they matter: Lead author on IfcLLM, a 2026 framework that converts IFC models into both relational and graph representations for natural-language querying.
+- Evidence: arXiv `2605.13236v1`; Semantic Scholar check returned 0 citations / 0 references at query time, expected for fresh preprint. Abstract reports 93.3–100% first-attempt accuracy on three IFC models with retry/refine recovery.
+- Connected people/orgs/tools: Sisi Zlatanova; Haowen Xu; Yafei Sun; Johnson Xuesong Shen; IfcLLM; IFC; graph representation; relational representation; open-weight GPT OSS 120B.
+- Score: 74
+- Status: candidate / near-promotion after implementation artifacts are verified
+- Mental model: “Dual representation beats one perfect schema” — IFC should be transformed into complementary relational and graph views, then queried with iterative retry/refine reasoning.
+- Actionability for Rhino Mind/AoA: Prototype Rhino/Speckle project memory with two backing views: a simple table of object properties/geometry plus a graph of relationships; route questions to the view that fits the task.
+- Notes: Search for IfcLLM code/dataset next run; compare against IFC Whisperer and adaptive exploration papers.

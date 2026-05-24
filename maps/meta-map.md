@@ -130,3 +130,12 @@ The 2026-05-24 run connected four implementation channels: McNeel `RhinoMCP`, MC
 - **Evidence adapter:** provenance over every action/check so agents remain auditable.
 
 Strategic implication: do not build Rhino Mind as a raw “AI controls Rhino” demo. Use MCP as the socket and differentiate with semantic project intelligence: classify, check, explain, and produce shareable evidence.
+
+## 10. Two-lens project memory
+
+The IfcLLM / hybrid IFC querying signal strengthens the idea that BIM 2.0 project memory should not force all information into one representation. A useful stack may need at least two synchronized lenses:
+
+- **relational lens:** objects, properties, quantities, layers, materials, geometry summaries;
+- **graph lens:** containment, adjacency, systems, dependencies, provenance, requirement links.
+
+Strategic implication: Rhino Mind’s first memory prototype should avoid “just vectorize the model.” Start with an object/property table plus a relationship graph, then expose which lens produced an answer.

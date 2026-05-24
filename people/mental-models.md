@@ -152,3 +152,14 @@ Every people-hunt pass should add or update:
 - one limitation/blind spot;
 - one implication for Rhino Mind / AoA;
 - one possible new synthesized model, even if rough.
+
+### Hybrid representation project memory
+
+IfcLLM adds a useful model family: do not search for a single perfect BIM representation. Convert the same model into multiple complementary views and let the agent pick or combine them.
+
+- **Person/source:** Rabindra Lamsal et al., “A Hybrid Framework for Natural Language Querying of IFC Models with Relational and Graph Representations.”
+- **Core lens:** BIM querying improves when properties/geometry live in a relational view and topology/relationships live in a graph view.
+- **Why it matters:** Rhino/Speckle project memory has the same problem as IFC: objects have table-like attributes and graph-like relationships. One vector store or one database will probably be brittle.
+- **Limit/blind spot:** The paper is fresh and needs code/dataset verification; IFC models may be cleaner than messy Rhino practice models.
+- **Rhino Mind implication:** Build memory indexes in pairs: object/property table + relationship graph + retrieval trace. Make the “which view answered this?” explicit in the UI.
+- **New model seed:** **Two-lens project memory** — every answer should say whether it came from object facts, relationship topology, precedent memory, or a combination.

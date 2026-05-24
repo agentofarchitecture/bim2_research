@@ -76,3 +76,8 @@
 ## Daily loop instruction
 
 Add new opportunities here only when they are specific enough to test or discuss.
+
+13. **Two-lens Rhino/Speckle memory prototype**
+   - Export a small Rhino/Speckle model into two synchronized indexes: object/property table and relationship graph.
+   - Ask 10 natural-language questions and record whether each is best answered by table, graph, or both.
+   - Use this as a product demo for “project memory you can inspect,” not black-box chat.

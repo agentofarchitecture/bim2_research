@@ -61,3 +61,18 @@ Last updated: 2026-05-24.
 
 - Avoid results that only claim “AI designs buildings” with no API, repo, examples, validation, or deliverable workflow.
 - Deprioritise generic digital twin marketing unless it names IFC/IDS/bSDD/openCDE/schema/API specifics.
+
+## 2026-05-24 additions
+
+### arXiv / Semantic Scholar
+
+- `"IfcLLM" "IFC" "relational" "graph"`
+- `"A Hybrid Framework" "Natural Language Querying" "IFC Models"`
+- `"BIM2RDT" "agentic" "digital twin"`
+
+### GitHub
+
+- `"Ishigaki-IDS-Bench"`
+- `"IDS" "visual editor" "buildingSMART" pushed:>2026-01-01`
+- `"BIM LLM" "Graph RAG" "IFC" pushed:>2026-01-01`
+- `"Speckle" "Claude" "skills" "GraphQL"`
