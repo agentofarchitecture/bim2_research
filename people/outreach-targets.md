@@ -45,3 +45,9 @@ Add someone here only if there is a plausible reason for Luke/AoA/Rhino Mind to 
 - **André Borrmann / TUM agentic BIM cluster** — ask what minimal benchmark would prove a Rhino/Speckle BIM agent is useful rather than merely impressive.
 - **Jakob Beetz / Pieter Pauwels** — ask how much linked-data/semantic-web structure is useful for small-practice project memory before maintenance overhead dominates.
 - **Tobias Heimig-Elschner** — watch for code or follow-up artifacts around MCP server architecture; potential technical interview on adapter contracts.
+
+### New MCP / Rhino-side learning targets
+
+- **Callum Sykes / Steve Fuchs (McNeel RhinoMCP)** — ask which Rhino MCP primitives are stable, what guardrails are planned, and where semantic/project-context responsibilities should sit outside raw tool control.
+- **Bharathi Kannan Nithyanantham / MCP4IFC authors** — ask what IFC manipulation tasks are currently reliable enough for small benchmark comparisons against RhinoMCP/Speckle workflows.
+- **Georg Dangl / BCF-API contributors** — ask how lightweight BCF/OpenCDE-style issue objects could support model-check findings from Rhino-heavy practices.

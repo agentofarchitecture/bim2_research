@@ -1,6 +1,6 @@
 # Query Bank
 
-Last updated: 2026-05-23.
+Last updated: 2026-05-24.
 
 ## High-yield recurring queries
 
@@ -21,6 +21,13 @@ Last updated: 2026-05-23.
 - `"BIMgent" "computer-use agents" "BIM"`
 
 ### GitHub
+
+
+- `"RhinoMCP" "McNeel" "Model Context Protocol"`
+- `"MCP4IFC" "IFC-Based Building Design"`
+- `"buildingSMART" "BCF-API" "OpenCDE"`
+- `"bSDD" "MCP server" "buildingSMART Data Dictionary"`
+- `"bSDD" "Pydantic" "toolkit" BIM`
 
 - `buildingSMART IDS contributors`
 - `IfcOpenShell contributor Bonsai BIM`

@@ -119,3 +119,14 @@ Today’s strongest new cluster is around agentic BIM research: MCP-server refer
 - repeatable benchmark tasks and evidence traces.
 
 Strategic implication: Rhino Mind should not begin as a general architectural copilot. It should begin as a reproducible agent harness for a few small tasks: inspect context, discover metadata conventions, run a check pack, patch a small piece of model data, and produce an auditable report.
+
+## 10. MCP is the socket; semantics are the product
+
+The 2026-05-24 run connected four implementation channels: McNeel `RhinoMCP`, MCP4IFC, bSDD MCP/toolkits, and buildingSMART BCF-API. This suggests a stack for Rhino Mind:
+
+- **Environment adapter:** RhinoMCP-style control of Rhino objects, layers, commands, viewport, and user text.
+- **Semantic adapter:** IFC/Speckle/bSDD/IDS-lite interpretation of what objects mean and which properties/checks apply.
+- **Collaboration adapter:** BCF/OpenCDE-style issue/context exchange for turning findings into reviewable coordination tasks.
+- **Evidence adapter:** provenance over every action/check so agents remain auditable.
+
+Strategic implication: do not build Rhino Mind as a raw “AI controls Rhino” demo. Use MCP as the socket and differentiate with semantic project intelligence: classify, check, explain, and produce shareable evidence.

@@ -1,6 +1,6 @@
 # BIM 2.0 Mental Models and Idea Sources
 
-Status: living synthesis. Last updated: 2026-05-23.
+Status: living synthesis. Last updated: 2026-05-24.
 
 This file is the real reason the people map exists.
 
@@ -128,6 +128,20 @@ The MCP-server reference-architecture paper points to a separation Luke should p
 ### Explore-then-check
 
 The adaptive BIM extraction paper suggests that model QA agents should first learn the local project dialect — layers, blocks, names, user text, Speckle fields, IFC property sets — before applying requirements. This is especially relevant for small practices with inconsistent, partial, or Rhino-heavy models.
+
+
+
+### MCP is the socket; semantics are the product
+
+The 2026-05-24 pass connected McNeel `RhinoMCP`, MCP4IFC, bSDD-MCP, and BCF-API. The synthesis: MCP gives agents a standard way to call tools, but the product value is the AEC-specific semantic layer above those calls.
+
+Rhino Mind implication:
+
+- Let environment adapters handle raw control: create geometry, select objects, read user text, capture viewport.
+- Add semantic adapters: classify elements, map to bSDD/office vocabularies, generate IDS-lite checks, inspect Speckle/IFC properties.
+- Add collaboration/evidence adapters: turn findings into reviewable BCF-lite issues with provenance.
+
+New model seed: *Agent socket + semantic sidecar* — use MCP as the transport layer, but differentiate through checkable project intelligence.
 
 ## Daily loop requirements
 

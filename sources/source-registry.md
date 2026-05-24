@@ -1,6 +1,6 @@
 # Source Registry
 
-Last updated: 2026-05-23.
+Last updated: 2026-05-24.
 
 ## Promoted sources
 
@@ -203,6 +203,90 @@ Last updated: 2026-05-23.
 - why_it_matters: Possible bridge between IFC schemas and web/agent-readable data formats.
 - best_use: Track Jan Brouwer and Pieter Pauwels connection to graph/web-readable BIM.
 - notes: GitHub API snapshot: top contributors include Jan Brouwer and Pieter Pauwels.
+
+### McNeel RhinoMCP
+
+- url: https://github.com/mcneel/RhinoMCP
+- type: repo / Rhino agent interface
+- platform: GitHub
+- entities: [McNeel, Rhino, MCP, agentic CAD]
+- topics: [Model Context Protocol, Rhino automation, agent tool use, CAD editing]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 86
+- status: promoted
+- why_it_matters: Official McNeel-hosted MCP server/package path for agents to create and edit Rhino; closest current public substrate for Rhino Mind execution primitives.
+- best_use: Track Rhino-side primitive design and benchmark against Rhino Mind semantic-check workflows.
+- links_out_to: [https://github.com/clicky, https://github.com/stevefuchs]
+- linked_from: [daily/2026-05-24.md]
+- notes: GitHub API snapshot: 83 stars, updated 2026-05-22, MIT license; top contributors Callum Sykes/clicky and Steve Fuchs.
+
+### MCP4IFC paper and repo
+
+- url: https://arxiv.org/abs/2511.05533v1 ; https://github.com/Show2Instruct/mcp4ifc
+- type: paper / repo / IFC agent framework
+- platform: arXiv + GitHub
+- entities: [MCP4IFC, IFC, MCP, LLM, University of Rostock]
+- topics: [IFC manipulation, scene querying, RAG code generation, agentic BIM]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 80
+- status: promoted
+- why_it_matters: Connects Model Context Protocol with open IFC data manipulation, giving a schema-first counterpart to RhinoMCP environment control.
+- best_use: Compare geometry-first and IFC-first agent workflows on the same tiny BIM task.
+- links_out_to: [https://github.com/nbharathik, https://github.com/ashwin-ned]
+- linked_from: [daily/2026-05-24.md]
+- notes: arXiv authors include Bharathi Kannan Nithyanantham, Tobias Sesterhenn, Ashwin Nedungadi, Sergio Peral Garijo, Janis Zenkner, Christian Bartelt, Stefan Lüdtke. Repo has low stars, so treat as early implementation probe.
+
+### buildingSMART BCF-API
+
+- url: https://github.com/buildingSMART/BCF-API
+- type: repo / standard implementation
+- platform: GitHub
+- entities: [buildingSMART, BCF, OpenCDE]
+- topics: [BIM Collaboration Format, issue exchange, model coordination API]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- last_useful_signal: 2026-05-24
+- score: 78
+- status: promoted
+- why_it_matters: Active web service specification for BIM issue/context exchange; Rhino Mind check findings should eventually become reviewable coordination issues.
+- best_use: Design BCF-lite output objects for QA/compliance findings.
+- links_out_to: [https://github.com/GeorgDangl]
+- linked_from: [daily/2026-05-24.md]
+- notes: GitHub API snapshot: 230 stars, updated 2026-05-15; top contributors Georg Dangl and `linhard`.
+
+### bSDD MCP server
+
+- url: https://github.com/JardiMargalefAgusti/bSDD-mcp
+- type: repo / vocabulary MCP server
+- platform: GitHub
+- entities: [bSDD, buildingSMART Data Dictionary, MCP]
+- topics: [classification lookup, property lookup, BIM enrichment]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- score: 65
+- status: candidate
+- why_it_matters: Tiny but strategically clear example of exposing bSDD as an AI-agent tool.
+- best_use: Pattern for a Rhino/Speckle classification assistant.
+- notes: Low stars; promote only if adoption or stronger implementation details appear.
+
+### bSDD-Toolkit
+
+- url: https://github.com/c-mellueh/bSDD-Toolkit
+- type: repo / bSDD editor and Python toolkit
+- platform: GitHub
+- entities: [bSDD, buildingSMART Data Dictionary]
+- topics: [dictionary authoring, validation, Pydantic, PySide6 GUI]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-24
+- score: 68
+- status: candidate
+- why_it_matters: Makes vocabulary/dictionary work concrete and editable, which is necessary if office/project semantics are to be maintained.
+- best_use: Study UI/data-model ideas for small project vocabularies.
+- notes: Updated 2026-05-21; MIT license; one-person implementation.
 
 ## Blocked / weak sources
 

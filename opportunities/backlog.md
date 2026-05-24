@@ -51,6 +51,20 @@
    - Before any QA/compliance answer, have Rhino Mind map the project’s local dialect: layer conventions, block names, object names, user text keys, Speckle properties, units, and missing metadata.
    - Output a “model dictionary” and use it to translate IDS-lite checks into the project’s actual conventions.
 
+
+
+13. **RhinoMCP semantic sidecar**
+   - Use McNeel RhinoMCP for raw environment control, but add Rhino Mind’s own semantic layer: selected-object classifier, bSDD/office-vocabulary suggestion, IDS-lite check runner, and evidence report.
+   - Success test: agent can explain not just what it created/edited, but what the object means and what requirement it satisfies or violates.
+
+14. **BCF-lite issue exporter**
+   - Convert QA/check failures into lightweight issue cards: element reference, screenshot/viewpoint, rule, severity, suggested fix, assignee/status, provenance.
+   - Later map this to BCF/OpenCDE when collaboration integrations matter.
+
+15. **Geometry-first vs IFC-first MCP benchmark**
+   - Run one task through RhinoMCP and MCP4IFC: create/find a wall-like element, classify it, attach required properties, run a check, and export evidence.
+   - Use results to decide which tasks belong in Rhino, Speckle, IFC, or a hybrid adapter.
+
 ## Bigger strategic bets
 
 - Open project knowledge graph for small architecture practices

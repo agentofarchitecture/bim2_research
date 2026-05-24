@@ -1,6 +1,6 @@
 # Source Graph
 
-Last updated: 2026-05-23.
+Last updated: 2026-05-24.
 
 ## People → sources / tools
 
@@ -25,6 +25,15 @@ Last updated: 2026-05-23.
 - Zihan Deng → lead author → BIMgent computer-use agents for BIM authoring
 - Klaus Aengenvoort → contributor → buildingSMART/bSDD
 
+
+- Callum Sykes → primary contributor → McNeel RhinoMCP
+- Steve Fuchs → contributor / design technologist → McNeel RhinoMCP
+- Bharathi Kannan Nithyanantham → lead author / contributor → MCP4IFC
+- Ashwin Nedungadi → co-author / contributor → MCP4IFC
+- Georg Dangl → top contributor → buildingSMART BCF-API
+- Christoph Mellüh → creator → bSDD-Toolkit
+- Jardi Margalef Agusti → creator → bSDD-mcp
+
 ## Standards / concepts → implementation sources
 
 - IDS → implemented / evolved in → buildingSMART/IDS GitHub repository
@@ -37,6 +46,12 @@ Last updated: 2026-05-23.
 - bSDD → vocabulary / classification layer for → IDS requirements and semantic model properties
 - MCP → tool-calling interface for → reusable BIM agent adapters
 - Adaptive exploration → runtime discovery of → heterogeneous BIM/Rhino/Speckle model dialects
+
+
+- Rhino MCP → environment-control substrate for → agentic Rhino workflows
+- MCP4IFC → schema-control substrate for → agentic IFC workflows
+- BCF/OpenCDE → collaboration issue/context layer for → check findings and coordination tasks
+- bSDD MCP/toolkits → vocabulary lookup/authoring layer for → semantic model enrichment
 
 ## Product / ecosystem connections
 
@@ -56,3 +71,6 @@ Last updated: 2026-05-23.
 - Tobias Heimig-Elschner / Changyu Du / Anna Scheuvens / André Borrmann / Jakob Beetz → MCP server reference architecture → API-agnostic agentic BIM interaction
 - Sylvain Hellin / Suhyung Jang / Stefan Fuchs / Stavros Nousias / André Borrmann → adaptive exploration → BIM information extraction from heterogeneous models
 - Zihan Deng / Changyu Du / Stavros Nousias / André Borrmann → BIMgent → autonomous building modelling via computer-use agents
+
+- Bharathi Kannan Nithyanantham / Tobias Sesterhenn / Ashwin Nedungadi / Sergio Peral Garijo / Janis Zenkner / Christian Bartelt / Stefan Lüdtke → MCP4IFC → IFC-based building design using LLMs and MCP
+- Hanlong Wan / Weili Xu / Michael Rosenberg / Jian Zhang / Aysha Siddika → Automatic Building Code Review case study → BIM extraction + RAG/MCP agent pipelines

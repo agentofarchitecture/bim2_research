@@ -1,6 +1,6 @@
 # BIM 2.0 People Candidates
 
-Status: live longlist. Last updated: 2026-05-23.
+Status: live longlist. Last updated: 2026-05-24.
 
 Add candidates here before promotion to `people/top-100.md`.
 
@@ -216,3 +216,45 @@ Every strong candidate should have a mental-model note, even if rough.
 - Mental model: “Vocabulary as operational infrastructure” — BIM checks only become portable if terms/classes/properties are shared and machine-readable.
 - Actionability for Rhino Mind/AoA: Watch bSDD contributors for how classification terms can be attached to Rhino/Speckle elements without heavy BIM authoring.
 - Notes: Verify public writing and role before promotion.
+
+### Christoph Mellüh
+
+- Category: bSDD / vocabulary tooling / BIM software
+- Current org / affiliation: Hamburg Wasser (from GitHub profile)
+- Links: https://github.com/c-mellueh ; https://github.com/c-mellueh/bSDD-Toolkit
+- Why they matter: Builds `bSDD-Toolkit`, a visual editor and Python/Pydantic toolkit for creating, validating, and managing buildingSMART Data Dictionary JSON.
+- Evidence: GitHub API snapshot: `c-mellueh/bSDD-Toolkit` has 12 stars, MIT license, updated 2026-05-21, 821 contributions by `c-mellueh`; README names class/property/property-set editing, IFC helpers, and plugin architecture.
+- Connected people/orgs/tools: buildingSMART bSDD; Artur Tomczak; Klaus Aengenvoort; bSDD-mcp.
+- Score: 68
+- Status: candidate
+- Mental model: “Vocabulary authoring must become normal tooling” — classification/property semantics need editors and validators, not just central standards pages.
+- Actionability for Rhino Mind/AoA: Study the data model/UI patterns for making bSDD-like dictionaries small enough for office/project vocabularies.
+- Notes: Candidate until adoption, public writing, or standards connection is verified.
+
+### Jardi Margalef Agusti
+
+- Category: bSDD / MCP / semantic enrichment
+- Current org / affiliation: to verify
+- Links: https://github.com/JardiMargalefAgusti ; https://github.com/JardiMargalefAgusti/bSDD-mcp
+- Why they matter: Built a small MCP server exposing the buildingSMART Data Dictionary API to AI assistants for BIM model enrichment.
+- Evidence: GitHub README says the server exposes 9 tools for listing dictionaries, browsing class hierarchy, retrieving class details/properties/relations, etc.; repo updated 2026-04-22.
+- Connected people/orgs/tools: bSDD; MCP; Claude Desktop; buildingSMART Data Dictionary.
+- Score: 65
+- Status: candidate
+- Mental model: “Vocabulary lookup as an agent tool” — agents should not hallucinate classifications/properties; they should call a standard dictionary.
+- Actionability for Rhino Mind/AoA: Prototype a classification assistant that suggests bSDD/office terms for selected Rhino/Speckle objects with human approval.
+- Notes: Tiny repo/low stars; treat as pattern probe, not ecosystem proof.
+
+### Steve Fuchs
+
+- Category: Rhino MCP / design technology bridge
+- Current org / affiliation: McNeel
+- Links: https://github.com/stevefuchs ; https://github.com/mcneel/RhinoMCP ; https://linktr.ee/stevefuchs
+- Why they matter: Secondary contributor to McNeel `RhinoMCP` and design technologist profile; may bridge agentic Rhino tooling with design-practice adoption.
+- Evidence: GitHub API snapshot: 5 contributions to `mcneel/RhinoMCP`; profile lists Design Technologist at McNeel.
+- Connected people/orgs/tools: Callum Sykes; McNeel; Rhino MCP Platform.
+- Score: 62
+- Status: candidate / watch closely
+- Mental model: “Agent control needs design-technology translation” — raw primitives only matter when designers can understand and trust them.
+- Actionability for Rhino Mind/AoA: Watch for talks, examples, or docs that reveal intended design workflows around RhinoMCP.
+- Notes: Needs more public technical artifacts before promotion.

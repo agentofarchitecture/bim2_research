@@ -21,6 +21,10 @@
 - BIM MCP / Model Context Protocol adapters
 - agentic BIM benchmarks
 - buildingSMART bSDD vocabulary implementation
+- bSDD MCP and vocabulary authoring tools
+- BCF / OpenCDE issue-context APIs
+- IFC MCP / MCP4IFC
+- Rhino MCP / McNeel RhinoMCP
 
 ## Research databases
 
@@ -52,6 +56,11 @@
 - COMPAS: https://github.com/compas-dev/compas
 - Ladybug Rhino: https://github.com/ladybug-tools/ladybug-rhino
 - That Open components: https://github.com/ThatOpen/engine_components
+- McNeel RhinoMCP: https://github.com/mcneel/RhinoMCP
+- MCP4IFC: https://github.com/Show2Instruct/mcp4ifc ; https://arxiv.org/abs/2511.05533v1
+- buildingSMART BCF-API: https://github.com/buildingSMART/BCF-API
+- bSDD MCP server: https://github.com/JardiMargalefAgusti/bSDD-mcp
+- bSDD-Toolkit: https://github.com/c-mellueh/bSDD-Toolkit
 
 ## Signal quality rubric
 

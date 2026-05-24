@@ -1,6 +1,6 @@
 # Mental Model Notes for Top BIM 2.0 People
 
-Status: rough extraction layer. Last updated: 2026-05-23.
+Status: rough extraction layer. Last updated: 2026-05-24.
 
 Use this file to add idea/mental-model notes before rewriting the formal Top 100 ranking. These notes are intentionally sharper than normal bios.
 
@@ -140,3 +140,30 @@ Use this file to add idea/mental-model notes before rewriting the formal Top 100
 - **Limit / blind spot:** Agentic code execution must be sandboxed and auditable; exploration can be slow or nondeterministic.
 - **Rhino Mind implication:** Add an “inspect before answer” step for Rhino Mind: map layers, blocks, object names, user text, Speckle properties, then answer with provenance.
 - **New model seed:** *Explore-then-check* — every model QA agent first learns the local project dialect before applying rules.
+
+### Callum Sykes — Rhino as an agent-operable design environment
+
+- **Core model:** Rhino can become a live endpoint for AI agents through explicit MCP tools, not only a human-operated modelling UI.
+- **Artifact trail:** Primary contributor to `mcneel/RhinoMCP`; GitHub API snapshot showed 226 contributions; profile lists McNeel affiliation.
+- **Why important:** This is the closest current public artifact to Rhino Mind’s execution surface. It makes agent primitives concrete: start/connect to Rhino, create/edit objects, and expose a package-manager installation path.
+- **Limit / blind spot:** Raw control of Rhino can produce impressive demos without solving semantic intent, project memory, compliance, liability, or office-standard issues.
+- **Rhino Mind implication:** Treat RhinoMCP as a possible substrate/benchmark, then build the differentiated semantic sidecar: inspect, classify, check, explain, and create evidence.
+- **New model seed:** *Environment control is necessary but not sufficient* — Rhino Mind should not compete on “agent can make a box”; it should compete on “agent knows what this object means and what must be checked next.”
+
+### Bharathi Kannan Nithyanantham — IFC manipulation through agent tool protocols
+
+- **Core model:** LLMs can operate on standardized IFC data through MCP tools that query scenes, create/modify common elements, and use RAG/code generation for task-specific operations.
+- **Artifact trail:** Lead author of arXiv `2511.05533v1`, “MCP4IFC: IFC-Based Building Design Using Large Language Models”; contributor to `Show2Instruct/mcp4ifc`.
+- **Why important:** This is the IFC-side mirror of RhinoMCP. It asks whether agents should manipulate the semantic exchange model rather than only an authoring UI.
+- **Limit / blind spot:** Fresh paper/repo with low visible adoption; robustness on messy practice models needs testing.
+- **Rhino Mind implication:** Run the same benchmark through RhinoMCP and MCP4IFC: inspect model, classify object, patch a property, export evidence. Learn which layer is best for each task.
+- **New model seed:** *Geometry-first vs schema-first agents* — the best Rhino Mind workflow may use Rhino for situated design actions and IFC/Speckle for semantic validation.
+
+### Georg Dangl — BIM collaboration as structured issue/context exchange
+
+- **Core model:** Collaboration around BIM needs web-service specifications and structured issue/context objects, not just model file exchange.
+- **Artifact trail:** Top contributor to `buildingSMART/BCF-API`; profile links to Dangl IT.
+- **Why important:** If Rhino Mind checks find problems, the output needs to enter a coordination workflow. BCF/OpenCDE-style APIs are a path from “AI finding” to assignable review item.
+- **Limit / blind spot:** BCF/OpenCDE infrastructure can be too heavy for small Rhino-led practices unless wrapped as a simple “issue card” workflow.
+- **Rhino Mind implication:** Define BCF-lite output now: finding title, element reference, viewpoint, rule, severity, suggested fix, status, provenance.
+- **New model seed:** *Checks become conversations* — model QA is useful when each finding becomes a shareable, trackable, evidence-backed coordination object.
