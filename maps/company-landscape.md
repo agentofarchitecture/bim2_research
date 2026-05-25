@@ -1,6 +1,6 @@
 # BIM 2.0 Company Landscape
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-25.
 
 Purpose: maintain a grounded company/product map for BIM 2.0 so the people map is not floating in abstract research. The strongest source anchors are ArchiTech Network / ATN, especially Oliver / Olly Thomas's BIM 2.0 company graph, plus AEC Magazine's independent BIM 2.0 / Rebuilding BIM coverage and primary company sources.
 
@@ -48,14 +48,15 @@ These are the companies most directly trying to rebuild BIM authoring/collaborat
 
 25. **Rayon** — collaborative browser CAD/planning/documentation; more CAD than BIM unless semantics deepen.
 26. **RunChat** — Rhino/GH agentic scripting and workflow canvas; direct Rhino Mind comparator, but not a BIM platform by itself.
-27. **NonicaTab** — Revit + AI connector pattern; verify in a dedicated pass.
-28. **OLI** — product/manufacturer BIM object data workflow; verify in a dedicated pass.
-29. **EvolveLAB** — AEC AI tools such as Veras/Glyph/Morphis; acquired by Chaos, strong ecosystem signal but more tool/plugin layer than BIM 2.0 platform.
-30. **Pirros** — architectural/detail knowledge and documentation intelligence; not BIM authoring, but very relevant to firm memory and repeatable details.
-31. **UpCodes** — AI/code compliance layer; adjacent now, but important if BIM 2.0 becomes model-to-compliance automation.
-32. **Gendo** — architecture AI visualisation; watchlist only for BIM 2.0.
-33. **Infurnia** — cloud BIM modeller; older but useful non-incumbent comparison.
-34. **Autodesk Forma** — incumbent early-stage cloud planning/design platform; strategic pressure point rather than startup.
+27. **Raven** — intent-to-editable-Grasshopper-definition AI; direct Rhino/GH tooling-on-demand comparator, but not BIM/project-semantic yet.
+28. **NonicaTab** — Revit + AI connector pattern; verify in a dedicated pass.
+29. **OLI** — product/manufacturer BIM object data workflow; verify in a dedicated pass.
+30. **EvolveLAB** — AEC AI tools such as Veras/Glyph/Morphis; acquired by Chaos, strong ecosystem signal but more tool/plugin layer than BIM 2.0 platform.
+31. **Pirros** — architectural/detail knowledge and documentation intelligence; not BIM authoring, but very relevant to firm memory and repeatable details.
+32. **UpCodes** — AI/code compliance layer; adjacent now, but important if BIM 2.0 becomes model-to-compliance automation.
+33. **Gendo** — architecture AI visualisation; watchlist only for BIM 2.0.
+34. **Infurnia** — cloud BIM modeller; older but useful non-incumbent comparison.
+35. **Autodesk Forma** — incumbent early-stage cloud planning/design platform; strategic pressure point rather than startup.
 
 ## Source confidence
 
@@ -111,6 +112,7 @@ These are the companies most directly trying to rebuild BIM authoring/collaborat
 - **That Open Company / That Open Engine** — web openBIM components/developer tooling.
 - **IfcOpenShell / Bonsai** — open-source IFC/BIM implementation layer.
 - **RunChat** — Rhino/Grasshopper AI workflow canvas and agentic scripting; direct Rhino Mind comparator but not BIM 2.0 authoring by itself.
+- **Raven** — Grasshopper AI interface / CAD intelligence layer; turns intent into precise, editable Grasshopper definitions. Strong Rhino Mind comparator for tool generation, but current primary evidence is definition generation rather than project semantics.
 - **NonicaTab** — Revit + AI connector pattern.
 
 ### 5. Product/manufacturer BIM object workflows and compliance/documentation intelligence

@@ -1,6 +1,6 @@
 # BIM 2.0 People Candidates
 
-Status: live longlist. Last updated: 2026-05-24.
+Status: live longlist. Last updated: 2026-05-25.
 
 Add candidates here before promotion to `people/top-100.md`.
 
@@ -352,10 +352,10 @@ Every strong candidate should have a mental-model note, even if rough.
 - Evidence: ATN EP64 title “Hypar: Automating Building Design with AI & Automation”.
 - Connected people/orgs/tools: Hypar; Oliver Thomas; building design automation; computational design.
 - Score: 74
-- Status: candidate / near-promotion
+- Status: promoted to Top 100 on 2026-05-25; keep here as paired intake note until split into full individual profiles.
 - Mental model: “Buildings as composable automation functions.”
 - Actionability for Rhino Mind/AoA: Compare Hypar’s function/platform model with Rhino Mind’s tooling-on-demand model.
-- Notes: Split into separate entries after deeper source review.
+- Notes: 2026-05-25 GitHub API check: `hypar-io/Elements` has 398 stars, 79 forks, pushed 2026-05-25; description “The smallest useful BIM”; top contributors include `ikeough` (2,628 contributions) and `andrewheumann` (837).
 
 ### Jesper Wallgren and Pamela Wallgren
 
@@ -398,3 +398,17 @@ Every strong candidate should have a mental-model note, even if rough.
 - Status: candidate / watch
 - Mental model: “AI workflow training as adoption bridge” — new AI design tools spread when practitioners can copy concrete scripts, Grasshopper patterns, and case-study workflows.
 - Actionability for Rhino Mind/AoA: Watch workshop/tutorial materials for the tasks architects actually ask AI to automate in Rhino/GH.
+
+### Moritz (Raven; full name to verify)
+
+- Category: Rhino/Grasshopper AI tooling / CAD intelligence layer
+- Current org / affiliation: Raven; exact role/full name to verify.
+- Links: https://www.raven.build/ ; https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628 ; ATN video `n8j1abP6CV8`
+- Why they matter: Raven is a direct Rhino/GH tooling-on-demand comparator. Its public claim is not generic chat; it turns intent into editable Grasshopper definitions/components.
+- Evidence: Raven website metadata says “The intelligence layer for CAD” and “Raven turns intent into precise, editable Grasshopper definitions.” McNeel Discourse post says the Raven plugin generates Grasshopper scripts/components using generative AI and is signed “Moritz.”
+- Connected people/orgs/tools: Raven; Grasshopper; Rhino; McNeel Discourse; Oliver Thomas / ATN.
+- Score: 64
+- Status: candidate / verify identity and implementation depth before promotion
+- Mental model: “Intent-to-definition” — AI should produce native, editable parametric graphs rather than black-box code or screenshots.
+- Limits/blind spots: current evidence is strong for GH automation but weak for BIM semantics, project memory, compliance, collaboration, and provenance.
+- Actionability for Rhino Mind/AoA: Add Raven to the RunChat/RhinoMCP comparator set and test where Rhino Mind must go beyond component generation into semantic sidecar behaviour.

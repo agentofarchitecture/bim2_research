@@ -1,6 +1,6 @@
 # Source Graph
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-25.
 
 ## People → sources / tools
 
@@ -106,3 +106,12 @@ Last updated: 2026-05-24.
 - Gwyllim Jahn → writes/teaches → RunChat in Rhino / connecting Runchat workflows to Rhino and Grasshopper.
 - James Pazzi → teaches with → Gwyllim Jahn → McNeel Europe RunChat workshop.
 - RunChat → competes with / informs → Rhino Mind in-environment AI tooling, but leaves opportunity for → semantic project-memory sidecar and IDS-lite/evidence workflows.
+
+## 2026-05-25 graph additions
+
+- ArchiTech Network / ATN channel feed → new/recent nodes → Raven `n8j1abP6CV8`, Gendo workshop `AzqK79bZhJI`, ATN x AECTech x Heatherwick Hackathon `C22ZP9XfwiM`, Oliver Thomas Architect 3.0 `LfTX-eDR9uw`.
+- Raven website → claims → “The intelligence layer for CAD” and intent-to-editable-Grasshopper definitions.
+- Moritz / Raven → posts on → McNeel Discourse → Raven Grasshopper-AI interface generating native Grasshopper scripts/components.
+- Raven → joins comparator cluster with → RunChat, RhinoMCP, Rhino Mind → in-environment Rhino/GH AI tooling.
+- Ian Keough / Andrew Heumann → top contributors to → `hypar-io/Elements` → “The smallest useful BIM.”
+- Hypar Elements → supports mental model → composable BIM atoms / building functions rather than monolithic BIM replacement.

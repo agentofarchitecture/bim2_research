@@ -1,6 +1,6 @@
 # BIM 2.0 Mental Models and Idea Sources
 
-Status: living synthesis. Last updated: 2026-05-24.
+Status: living synthesis. Last updated: 2026-05-25.
 
 This file is the real reason the people map exists.
 
@@ -175,3 +175,25 @@ RunChat’s Rhino/GH docs and McNeel Europe workshop signal a practical adoption
 - **Limit/blind spot:** Canvas agents can become clever automation surfaces without understanding project semantics, office standards, requirement intent, or evidence/provenance.
 - **Rhino Mind implication:** Rhino Mind should borrow the in-environment adoption pattern but add the missing semantic sidecar: project memory, local dialect discovery, IDS-lite checks, and auditable findings.
 - **New model seed:** **Canvas + semantic sidecar** — let the canvas/agent operate tools, but let the sidecar decide what the model means, what standards apply, and what evidence should be recorded.
+
+### Smallest useful BIM / composable building functions
+
+Hypar’s ATN interview node plus the live `hypar-io/Elements` repo sharpen a model that is highly relevant to Rhino Mind: BIM value can be decomposed into reusable building elements/functions, rather than requiring users to enter a monolithic authoring system.
+
+- **People/source:** Ian Keough and Andrew Heumann / Hypar / `hypar-io/Elements`.
+- **Core lens:** Building design automation should be made of composable, code-backed elements and workflows — “the smallest useful BIM” — rather than one all-encompassing BIM application.
+- **Why it matters:** This matches small-practice/Rhino reality better than full-platform replacement. It suggests Rhino Mind can create value through small semantic/tooling units that sit on top of existing work.
+- **Limit/blind spot:** Function platforms can still feel developer-led; architects need situated UI, examples, and trust that outputs match project intent.
+- **Rhino Mind implication:** Package semantic actions as small tools/checks: classify selected elements, attach required properties, generate one Grasshopper definition, run one IDS-lite check, export one issue card.
+- **New model seed:** **Composable BIM atoms** — build BIM 2.0 as many small verified atoms of meaning/action, not as one giant model migration.
+
+### Intent-to-definition as tooling-on-demand
+
+Raven adds a narrower but important mental model to the RunChat/RhinoMCP cluster.
+
+- **Person/source:** Moritz / Raven, pending full-name verification; Raven website and McNeel Discourse.
+- **Core lens:** A useful AI design assistant should turn natural-language intent into native, editable Grasshopper definitions/components rather than black-box code.
+- **Why it matters:** This is close to Rhino Mind’s “tools appear when needed” thesis, because the output lives in the designer’s existing parametric habitat.
+- **Limit/blind spot:** Intent-to-definition does not yet equal BIM 2.0; it needs project semantics, office standards, requirements, provenance, and handoff intelligence.
+- **Rhino Mind implication:** Treat editable GH generation as a baseline capability; differentiate by using the generated definition as part of an auditable semantic workflow.
+- **New model seed:** **Editable automation + semantic contract** — the graph/tool must remain editable, while Rhino Mind maintains the meaning, constraints, and evidence around it.

@@ -97,3 +97,8 @@ Add new opportunities here only when they are specific enough to test or discuss
    - Turn the player differentiation map into a short founder/user deck: web authoring, feasibility engines, workflow compression, open data, firm memory/compliance, authoring-tool agents.
    - End with Rhino Mind’s wedge: semantic sidecar for Rhino/GH + open BIM.
    - Use this to explain Rhino Mind to first-five testers without sounding like “another BIM platform.”
+
+17. **Composable BIM atoms prototype**
+   - Build 5 tiny Rhino/GH semantic actions inspired by Hypar Elements + Raven: classify selected objects, add user text/property pack, generate one editable GH helper, run one IDS-lite check, export one BCF-lite issue.
+   - Each atom must be editable, inspectable, and evidence-backed.
+   - Success test: an architect can run/use one atom without migrating to a new BIM platform, and the atom leaves better project memory behind.

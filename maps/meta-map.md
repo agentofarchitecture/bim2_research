@@ -165,3 +165,13 @@ The player-differentiation pass suggests BIM 2.0 is not converging into a single
 6. **Authoring-tool agents** — RunChat, RhinoMCP, Pirros/Mira, EvolveLAB-style plugins, Revit/Rhino/GH agents.
 
 Strategic implication: Rhino Mind should not position as a full BIM platform. It should position as the **semantic sidecar and agentic tooling layer for Rhino/Grasshopper and open BIM**: understand context, retrieve/build tools, enrich geometry, run checks, and publish evidence into the rest of the BIM2 stack.
+
+## 13. Composable BIM atoms beat monolithic BIM migration
+
+Hypar’s `Elements` repo (“The smallest useful BIM”) and Raven’s intent-to-editable-Grasshopper signal point to the same adoption pattern from different sides: designers may not need a new full BIM environment first; they need small, native, editable units of meaning/action that compound.
+
+- **Hypar side:** package building design automation as reusable elements/functions.
+- **Raven side:** package AI assistance as editable Grasshopper definitions.
+- **Rhino Mind side:** package semantic intelligence as small checkable tools: classify this selection, add missing properties, generate this GH helper, check this requirement, export this issue.
+
+Strategic implication: Rhino Mind’s first wedge should be **composable BIM atoms** inside Rhino/GH — tiny semantic actions with evidence — rather than a grand BIM replacement or generic AI canvas.

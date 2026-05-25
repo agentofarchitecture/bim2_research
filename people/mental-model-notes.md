@@ -1,6 +1,6 @@
 # Mental Model Notes for Top BIM 2.0 People
 
-Status: rough extraction layer. Last updated: 2026-05-24.
+Status: rough extraction layer. Last updated: 2026-05-25.
 
 Use this file to add idea/mental-model notes before rewriting the formal Top 100 ranking. These notes are intentionally sharper than normal bios.
 
@@ -167,3 +167,30 @@ Use this file to add idea/mental-model notes before rewriting the formal Top 100
 - **Limit / blind spot:** BCF/OpenCDE infrastructure can be too heavy for small Rhino-led practices unless wrapped as a simple “issue card” workflow.
 - **Rhino Mind implication:** Define BCF-lite output now: finding title, element reference, viewpoint, rule, severity, suggested fix, status, provenance.
 - **New model seed:** *Checks become conversations* — model QA is useful when each finding becomes a shareable, trackable, evidence-backed coordination object.
+
+### Ian Keough — Smallest useful BIM as productized functions
+
+- **Core model:** BIM can be decomposed into reusable software elements/functions rather than delivered only through monolithic authoring tools.
+- **Artifact trail:** Hypar; `hypar-io/Elements` (“The smallest useful BIM”); ATN EP64 with Andrew Heumann.
+- **Why important:** Gives Rhino Mind a product architecture precedent: small, composable BIM atoms can create value around existing workflows.
+- **Limit / blind spot:** Developer-friendly function platforms still need practice-friendly interfaces and trust/evidence layers.
+- **Rhino Mind implication:** Build semantic actions as tiny functions/check packs that can be invoked in context inside Rhino/GH.
+- **New model seed:** *Composable BIM atoms*.
+
+### Andrew Heumann — Computational design patterns as reusable product workflows
+
+- **Core model:** Advanced computational design should become repeatable workflows that ordinary teams can run, inspect, and adapt.
+- **Artifact trail:** Hypar; `hypar-io/Elements`; public computational design work; ATN EP64.
+- **Why important:** Bridges Grasshopper-style design computation with deployable building automation.
+- **Limit / blind spot:** Productizing computation can lose the situated judgement and craft of a specific studio unless outputs stay editable and explainable.
+- **Rhino Mind implication:** Translate office scripts/components into context-aware tools with provenance rather than one-off generated code.
+- **New model seed:** *From GH craft to reusable semantic tools*.
+
+### Moritz / Raven — Intent becomes an editable Grasshopper graph
+
+- **Core model:** AI should generate native parametric components/definitions from intent, keeping outputs inside Grasshopper instead of burying logic in opaque code.
+- **Artifact trail:** Raven website; McNeel Discourse Raven plugin post; ATN E11 `n8j1abP6CV8`.
+- **Why important:** Directly validates the “tooling-on-demand in Rhino/GH” habitat.
+- **Limit / blind spot:** Raven’s visible claim stops at CAD/GH intelligence; BIM 2.0 needs semantics, requirements, collaboration, and audit trails.
+- **Rhino Mind implication:** Treat editable GH generation as table stakes and add semantic sidecar responsibilities: classify, check, remember, explain, export evidence.
+- **New model seed:** *Editable automation + semantic contract*.

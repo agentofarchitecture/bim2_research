@@ -1,6 +1,6 @@
 # YouTube / ATN Grounding Map
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-25.
 
 Purpose: establish a grounded starting map for BIM 2.0 research from YouTube/interview sources, beginning with **ArchiTech Network / ATN** and Oliver / Olly Thomas. Luke specifically flagged that ATN has interviewed or covered many of the important BIM 2.0 companies, including Giraffe, Arcol, Motif, and others.
 
@@ -37,6 +37,9 @@ Purpose: establish a grounded starting map for BIM 2.0 research from YouTube/int
 | Finch + KPF | ATN KPF X FINCH WORKSHOP | `_dUeFSxPDoM` | Practice adoption / workshop signal. |
 | Speckle + HENN | ATN Speckle X-Figura X HENN Workshop | `gqkffbFHrk8` | Practice/data workflow signal. |
 | RunChat | Archi-Tech Talk E10: Supercharging Rhino with RUNCHAT.APP | `PPqDz4H2bmg` | Direct Rhino-agent/tooling-on-demand relevance. |
+| Raven | Archi-Tech Talk E11: Raven.AI... Chat GPT for Grasshopper! | `n8j1abP6CV8` | Direct Grasshopper AI comparator: text/intent to editable Grasshopper definitions. Transcript blocked; verified via oEmbed and primary Raven/McNeel pages. |
+| Gendo | ATN GENDO AI WORKSHOP | `AzqK79bZhJI` | Architecture image/rendering AI source; useful as visualization-adjacent watchlist, not core BIM until semantics/model links appear. |
+| ATN / AECTech / Heatherwick | ATN x AECTech x Heatherwick Hackathon | `C22ZP9XfwiM` | Newest ATN feed item on 2026-05-24; community/hackathon graph source to mine later for people/projects. |
 | BIM future | #41 The Future of BIM with Håvard Vasshaug | `5aQUvvsvCK8` | BIM strategy / practice-tech worldview source. |
 | BIM practice basics | WHAT IS BIM AND HOW IS IT USED IN PRACTICE? | `Vp1r9UHNZ-c` | Useful ATN baseline/context source. |
 | BIM 2.0 event | ATN Pecha Kucha In The Pub E9: BIM 2.0 and Beyond | `TOEIcEtwwIg` | Potential multi-speaker/company landscape source. |
@@ -111,3 +114,25 @@ Useful extracted claims from primary/docs sources:
 - McNeel Europe workshop page names **Gwyllim Jahn** and **James Pazzi** as tutors and frames Runchat as “a design agent and visual canvas for automating creative processes.”
 
 Interpretation: RunChat is the most direct ATN-linked comparator for Rhino Mind so far, but its visible wedge is **agentic canvas + scripting inside Rhino/GH**. Rhino Mind should differentiate with project semantics, office memory, check packs, and evidence/provenance.
+
+## 2026-05-25 ATN feed / Raven pass
+
+Channel feed check via YouTube Atom RSS succeeded for `UCrLHBCOz211YirQRg2QVJvA`. Transcript extraction retry for Raven video `n8j1abP6CV8` failed with the same YouTube cloud-IP `RequestBlocked` error.
+
+Recent ATN items captured:
+
+| Published | ID | Title | Research use |
+|---|---:|---|---|
+| 2026-05-24 | `C22ZP9XfwiM` | ATN x AECTech x Heatherwick Hackathon | Community/hackathon source graph; mine later for new computational-design people and prototypes. |
+| 2026-05-21 | `0j7vAQTWzCs` | ATN Summit 2026 — D5 Render — Stop Rendering, Start Designing | Visualization workflow source; watch but not core BIM. |
+| 2026-05-17 | `LfTX-eDR9uw` | Oliver Thomas — The Rise of Architect 3.0 | Duplicate/alternate Oliver thesis source to compare with `pwXN4CZ_nR8`. |
+| 2026-04-16 | `AzqK79bZhJI` | ATN GENDO AI WORKSHOP | AI visualization/design-canvas source; keep as adjacent. |
+| 2026-02-19 | `n8j1abP6CV8` | Archi-Tech Talk E11: Raven.AI...Chat GPT for Grasshopper! | High-priority Rhino/GH AI comparator. |
+
+Raven primary-source grounding:
+
+- Website: https://www.raven.build/ — title/metadata: “The intelligence layer for CAD”; description: “Raven turns intent into precise, editable Grasshopper definitions.”
+- McNeel Discourse: https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628 — describes Raven as a Grasshopper AI interface that generates Grasshopper scripts/components, not only C# or Python components; post signed “Moritz” (last name/role to verify).
+- Food4Rhino page appears in search results, but returned HTTP 405 from this environment.
+
+Interpretation: Raven extends the RunChat comparator cluster but is narrower and sharper: **intent → editable Grasshopper definition**. That is close to Rhino Mind’s tooling-on-demand territory, but visible evidence is Grasshopper automation rather than BIM semantics, office memory, IDS/check packs, or provenance.

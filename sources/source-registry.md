@@ -1,6 +1,6 @@
 # Source Registry
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-25.
 
 ## Promoted sources
 
@@ -383,3 +383,39 @@ Last updated: 2026-05-24.
 - links_out_to: [https://docs.runchat.com/llms.txt, https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html, https://gwyllim.substack.com/p/runchat-in-rhino, https://www.youtube.com/watch?v=PPqDz4H2bmg]
 - linked_from: [sources/youtube-atn-grounding.md, maps/company-landscape.md, daily/2026-05-24.md]
 - notes: YouTube transcript for ATN RunChat episode was blocked from VPS, but product docs and McNeel Europe post were reachable.
+
+### Hypar Elements
+
+- url: https://github.com/hypar-io/Elements
+- type: repo / computational BIM library
+- platform: GitHub
+- entities: [Hypar, Elements, Ian Keough, Andrew Heumann, BIM automation]
+- topics: [smallest useful BIM, computational design, building elements, Revit-compatible automation]
+- first_seen: 2026-05-25
+- last_checked: 2026-05-25
+- last_useful_signal: 2026-05-25
+- score: 83
+- status: promoted
+- why_it_matters: Primary implementation artifact for Hypar’s “smallest useful BIM” thesis; active repo with top contributors Ian Keough and Andrew Heumann.
+- best_use: Study how building automation can be packaged as composable elements/functions rather than a full authoring platform.
+- links_out_to: [https://hypar.io/, https://github.com/ikeough, https://github.com/andrewheumann]
+- linked_from: [daily/2026-05-25.md, people/top-100.md]
+- notes: GitHub API snapshot: 398 stars, 79 forks, pushed 2026-05-25; description “The smallest useful BIM.”
+
+### Raven primary-source cluster
+
+- url: https://www.raven.build/ ; https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628 ; https://www.youtube.com/watch?v=n8j1abP6CV8
+- type: product site / forum / YouTube episode
+- platform: web + McNeel Discourse + YouTube
+- entities: [Raven, Rhino, Grasshopper, ArchiTech Network, ATN]
+- topics: [Grasshopper AI, intent-to-definition, CAD intelligence layer, native editable parametric graphs]
+- first_seen: 2026-05-25
+- last_checked: 2026-05-25
+- last_useful_signal: 2026-05-25
+- score: 76
+- status: promoted as comparator source; people node remains candidate until identity is verified
+- why_it_matters: Direct Rhino/GH AI comparator that claims to turn natural-language intent into precise editable Grasshopper definitions; sharpens the tooling-on-demand map.
+- best_use: Compare with RunChat, RhinoMCP, and Rhino Mind’s semantic sidecar thesis.
+- links_out_to: [https://www.raven.build/, https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628]
+- linked_from: [sources/youtube-atn-grounding.md, daily/2026-05-25.md]
+- notes: ATN video transcript blocked by YouTube cloud-IP protections; Food4Rhino page appeared in search but returned HTTP 405 from this VPS.

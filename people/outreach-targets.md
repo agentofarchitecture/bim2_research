@@ -62,3 +62,11 @@ Add someone here only if there is a plausible reason for Luke/AoA/Rhino Mind to 
 - **James Pazzi** — RunChat workshop tutor / adoption node.
   - Why: practical training signal from McNeel Europe; likely to reveal what learners can reproduce versus what remains demo-only.
   - Potential ask: what tasks in the RunChat workshop repeatedly create value for architects, and which need project context or office standards?
+
+- **Ian Keough / Andrew Heumann** — Hypar / Elements / computational BIM automation.
+  - Why: strong “smallest useful BIM” model and implementation artifact in `hypar-io/Elements`.
+  - Potential ask: what is the smallest unit of BIM value that architects can adopt without moving to a new platform?
+
+- **Moritz / Raven** — identity to verify; Raven Grasshopper-AI interface.
+  - Why: direct comparator for intent-to-editable-Grasshopper tooling.
+  - Potential ask: what makes AI-generated GH definitions trustworthy and editable enough for production work, and where do semantics/provenance enter?

@@ -1,6 +1,6 @@
 # Query Bank
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-25.
 
 ## High-yield recurring queries
 
@@ -101,3 +101,19 @@ Last updated: 2026-05-24.
 - `"James Pazzi" "Runchat" "McNeel Europe"`
 - `"RunChat" "Rhino Python" "Grasshopper"`
 - `"AI" "Grasshopper" "canvas" "agent" "Rhino"`
+
+## 2026-05-25 additions
+
+### YouTube / ATN / Rhino-GH AI
+
+- `"Raven.AI" "Chat GPT for Grasshopper" "ArchiTech Network"`
+- `"Raven" "The intelligence layer for CAD" "Grasshopper"`
+- `"Raven can now use Plugins" "Grasshopper-AI interface"`
+- `"ATN x AECTech x Heatherwick Hackathon"`
+- `"Oliver Thomas" "The Rise of Architect 3.0" "ArchiTech Network"`
+
+### GitHub / implementation
+
+- `"hypar-io/Elements" "smallest useful BIM"`
+- `"Hypar" "Elements" "Ian Keough" "Andrew Heumann"`
+- `"Grasshopper" "intent" "editable definitions" "AI"`
