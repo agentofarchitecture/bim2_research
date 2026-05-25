@@ -152,3 +152,16 @@ Strategic read:
 - **Moat:** project semantics, office memory, requirement/check packs, provenance, and small-practice adoption workflows.
 
 New model: **Canvas + semantic sidecar** — let the canvas/agent operate the environment, but let Rhino Mind’s sidecar maintain meaning, standards, memory, and evidence.
+
+## 12. BIM 2.0 is splitting into six layers
+
+The player-differentiation pass suggests BIM 2.0 is not converging into a single Revit replacement. It is splitting into six product layers:
+
+1. **Web-native BIM authoring** — Snaptrude, Arcol, Qonic, Motif.
+2. **AI feasibility and planning engines** — Giraffe, TestFit, Spacio, Finch, qbiq, Codesign, Forma.
+3. **Workflow compression into BIM** — Skema, Higharc, Hypar, SWAPP, Snaptrude.
+4. **Open data and interoperability substrate** — Speckle, IfcOpenShell/Bonsai, That Open Company, IFC/IDS/bSDD/BCF.
+5. **Firm memory and compliance intelligence** — Pirros, UpCodes, Skema, knowledge modules in larger platforms.
+6. **Authoring-tool agents** — RunChat, RhinoMCP, Pirros/Mira, EvolveLAB-style plugins, Revit/Rhino/GH agents.
+
+Strategic implication: Rhino Mind should not position as a full BIM platform. It should position as the **semantic sidecar and agentic tooling layer for Rhino/Grasshopper and open BIM**: understand context, retrieve/build tools, enrich geometry, run checks, and publish evidence into the rest of the BIM2 stack.

@@ -87,3 +87,13 @@ Add new opportunities here only when they are specific enough to test or discuss
    - Reproduce RunChat’s visible Rhino/GH task categories from docs: screenshot-to-workflow, geometry transfer, Rhino Python generation, Grasshopper canvas explanation/component wiring.
    - For each task, add the Rhino Mind semantic sidecar version: identify object meaning, attach office vocabulary, run a check, retrieve prior detail/tool, and export evidence.
    - Output a feature matrix: “RunChat-like automation” vs “Rhino Mind semantic project intelligence.”
+
+15. **Rhino-to-BIM2 handoff agent**
+   - Pick 3 target platforms from the player map: Speckle, Snaptrude, Qonic/Motif.
+   - For a messy Rhino/GH model, produce a handoff package: cleaned layers, named objects, spaces/zones, materials, quantities, preview screenshots, assumptions, missing metadata, and export instructions.
+   - Success test: the receiving platform gets more structured, less ambiguous data than a normal manual export.
+
+16. **Six-layer BIM2 positioning deck**
+   - Turn the player differentiation map into a short founder/user deck: web authoring, feasibility engines, workflow compression, open data, firm memory/compliance, authoring-tool agents.
+   - End with Rhino Mind’s wedge: semantic sidecar for Rhino/GH + open BIM.
+   - Use this to explain Rhino Mind to first-five testers without sounding like “another BIM platform.”
