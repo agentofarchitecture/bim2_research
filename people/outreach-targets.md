@@ -39,6 +39,9 @@ Add someone here only if there is a plausible reason for Luke/AoA/Rhino Mind to 
 - Alan Rynne — verify current connector/interoperability focus.
 - Andrej730 — verify public identity and active IfcOpenShell areas.
 - Andrew Wallace — verify Speckle server/product role and public writing.
+- Oliver / Olly Thomas — ATN source-graph curator; potential learning/interview target for who he sees as genuinely changing BIM 2.0 versus demo noise.
+- André Agi / Stian Haugrim — Spacio; ask how they maintain compliance/code logic and what “BIM-ready export” means in practice.
+- Jaime Alonso — NonicaTab; ask what Revit AI connector actions users actually trust, and how model-edit guardrails are handled.
 
 ### Research interview candidates
 

@@ -1,6 +1,6 @@
 # Source Graph
 
-Last updated: 2026-05-25.
+Last updated: 2026-05-26.
 
 ## People → sources / tools
 
@@ -115,3 +115,12 @@ Last updated: 2026-05-25.
 - Raven → joins comparator cluster with → RunChat, RhinoMCP, Rhino Mind → in-environment Rhino/GH AI tooling.
 - Ian Keough / Andrew Heumann → top contributors to → `hypar-io/Elements` → “The smallest useful BIM.”
 - Hypar Elements → supports mental model → composable BIM atoms / building functions rather than monolithic BIM replacement.
+
+## 2026-05-26 graph additions
+
+- ATN x AECTech x Heatherwick Hackathon `C22ZP9XfwiM` → connects → ArchiTech Network / Oliver Thomas, AECTech, Heatherwick Studio, Motif, ShapeDiver, AI, BIM 2.0, computational design, automation, visualisation.
+- Oliver / Olly Thomas → curates / hosts → ATN interview + event graph → source-discovery path for BIM 2.0 companies, founders and prototype builders.
+- Spacio.ai → led by → André Agi / Franz Forsberg / Stian Haugrim → early-phase design + compliance + BIM export / Rhino+IFC interoperability.
+- Qonic → primary site claims → cloud BIM modelling platform with Revit downloads, developer hub, release notes and data-field regulation workflows.
+- NonicaTab / Nonica → Jaime Alonso / Blanca Serrano → Revit + Claude AI connector → read/report/modify/document model actions.
+- ShapeDiver → cloud applications for Grasshopper → web deployment layer for Rhino/GH parametric models and configurators; hackathon-adjacent via ATN metadata.

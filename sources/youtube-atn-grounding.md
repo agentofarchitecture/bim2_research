@@ -1,6 +1,6 @@
 # YouTube / ATN Grounding Map
 
-Last updated: 2026-05-25.
+Last updated: 2026-05-26.
 
 Purpose: establish a grounded starting map for BIM 2.0 research from YouTube/interview sources, beginning with **ArchiTech Network / ATN** and Oliver / Olly Thomas. Luke specifically flagged that ATN has interviewed or covered many of the important BIM 2.0 companies, including Giraffe, Arcol, Motif, and others.
 
@@ -136,3 +136,16 @@ Raven primary-source grounding:
 - Food4Rhino page appears in search results, but returned HTTP 405 from this environment.
 
 Interpretation: Raven extends the RunChat comparator cluster but is narrower and sharper: **intent → editable Grasshopper definition**. That is close to Rhino Mind’s tooling-on-demand territory, but visible evidence is Grasshopper automation rather than BIM semantics, office memory, IDS/check packs, or provenance.
+
+## 2026-05-26 ATN feed / hackathon pass
+
+Channel feed check via YouTube Atom RSS succeeded again for `UCrLHBCOz211YirQRg2QVJvA`. Transcript extraction retry for the newest hackathon video `C22ZP9XfwiM` failed with YouTube `RequestBlocked`, confirming the cloud-IP transcript caveat remains active.
+
+Useful ATN feed metadata extracted:
+
+| Published | ID | Title | Description signals | Research use |
+|---|---:|---|---|---|
+| 2026-05-24 | `C22ZP9XfwiM` | ATN x AECTech x Heatherwick Hackathon | Hosted at Heatherwick Studio's Maker House; architects, designers, developers, engineers and technologists built prototypes in 26 hours; collaboration with AECTech and Motif; themes: AI, BIM 2.0, computational design, automation, visualisation, future of practice; tag includes ShapeDiver. | High-value community/source-graph node for people and prototypes, not just a video. Mine for team names, prototype topics and reusable Rhino/GH/AEC automation ideas if a full event page or participant list appears. |
+| 2026-05-21 / 2026-05-20 | `0j7vAQTWzCs` / `hXU8Kqbp2YU` | ATN Summit 2026 — D5 Render — Stop Rendering, Start Designing | Steven Rubio and Oliver Uszkurat; D5 and AI-assisted visualization; bottleneck reduction and design-to-visualization workflows. | Adjacent visualization workflow source; useful only if tied back to model intelligence or Rhino/GH workflow, not promoted as core BIM. |
+
+New interpretation: ATN is becoming more than an interview graph. It is also an **event/prototype graph** where BIM 2.0 companies, computational designers, studios, and tool vendors meet. The hackathon should be treated as a people-discovery source: who can build useful prototypes quickly, and which prototypes reveal real workflow pain?

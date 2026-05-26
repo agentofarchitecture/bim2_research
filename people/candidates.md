@@ -1,6 +1,6 @@
 # BIM 2.0 People Candidates
 
-Status: live longlist. Last updated: 2026-05-25.
+Status: live longlist. Last updated: 2026-05-26.
 
 Add candidates here before promotion to `people/top-100.md`.
 
@@ -412,3 +412,55 @@ Every strong candidate should have a mental-model note, even if rough.
 - Mental model: “Intent-to-definition” — AI should produce native, editable parametric graphs rather than black-box code or screenshots.
 - Limits/blind spots: current evidence is strong for GH automation but weak for BIM semantics, project memory, compliance, collaboration, and provenance.
 - Actionability for Rhino Mind/AoA: Add Raven to the RunChat/RhinoMCP comparator set and test where Rhino Mind must go beyond component generation into semantic sidecar behaviour.
+
+### Oliver / Olly Thomas
+
+- Category: media / community graph / BIM 2.0 source curator
+- Current org / affiliation: ArchiTech Network / ATN
+- Links: https://www.youtube.com/channel/UCrLHBCOz211YirQRg2QVJvA ; https://www.youtube.com/watch?v=dturff3XgSk ; https://www.youtube.com/watch?v=C22ZP9XfwiM
+- Why they matter: Luke specifically identified ATN/Oliver as a primary source graph. ATN’s feed connects BIM 2.0 companies, founders, workshops, hackathons, and practice-tech conversations in one public graph.
+- Evidence: ATN BIM 2.0 overview names Snaptrude, Arcol, Giraffe, Motif, Qonic, Spacio.ai, Finch, Hypar and Speckle; newest feed item is ATN x AECTech x Heatherwick Hackathon with Motif/ShapeDiver signals.
+- Connected people/orgs/tools: ArchiTech Network, AECTech, Heatherwick Studio, Motif, ShapeDiver, Snaptrude, Arcol, Giraffe, Hypar, Speckle, Finch, Raven, RunChat.
+- Score: 74
+- Status: candidate / source-graph node
+- Actionability for Rhino Mind/AoA: Use ATN as an interview/prototype map for who to learn from and where to find companies that expose real BIM 2.0 workflow pain.
+- Notes: Promote to Top 100 if we can extract a distinct “Architect 3.0” mental model from transcript or reliable talk notes rather than only treating him as a curator.
+
+### André Agi
+
+- Category: product / early-phase AI-to-BIM design
+- Current org / affiliation: Spacio.ai — Product Lead / Architecture & Design
+- Links: https://www.spacio.ai/about ; https://www.spacio.ai
+- Why they matter: Spacio is now primary-source verified as early-phase building design software with compliance, simulations, BIM export, and Rhino/IFC interoperability claims.
+- Evidence: Spacio about page says André targets design complexity through algorithms and graphics and carries the vision of an all-in-one building design tool.
+- Connected people/orgs/tools: Franz Forsberg, Stian Haugrim, Spacio.ai, Rhino, IFC, Revit/ArchiCAD.
+- Score: 66
+- Status: candidate
+- Actionability for Rhino Mind/AoA: Useful mental model for combining architectural UX, algorithms, compliance and BIM-ready handoff in early design.
+- Notes: Needs ATN/interview transcript or stronger technical artifact before promotion.
+
+### Stian Haugrim
+
+- Category: product / BIM compliance implementation
+- Current org / affiliation: Spacio.ai — Tech Lead / BIM & Compliance
+- Links: https://www.spacio.ai/about ; https://www.spacio.ai
+- Why they matter: Carries the buildability/compliance side of Spacio’s early-phase automation model.
+- Evidence: Spacio about page describes seven years on construction sites before BIM technician work and frames him as turning big ideas into working software.
+- Connected people/orgs/tools: André Agi, Franz Forsberg, Spacio.ai, BIM compliance, Rhino, IFC.
+- Score: 65
+- Status: candidate
+- Actionability for Rhino Mind/AoA: Follow for how early design tools encode buildability/compliance without becoming heavyweight BIM authoring.
+- Notes: Needs implementation details, public writing or demos before promotion.
+
+### Jaime Alonso
+
+- Category: product / Revit API + AI connector
+- Current org / affiliation: Nonica — cofounder / CTO
+- Links: https://nonica.io
+- Why they matter: NonicaTab is a concrete Revit-side comparator for authoring-app AI actions: Claude can read/report/modify/document a Revit model via a plugin/tool layer.
+- Evidence: Nonica primary site says Jaime combined architecture work with advanced Autodesk Revit API programming and contributes to open-source projects / speaks at BIM and developer events.
+- Connected people/orgs/tools: Blanca Serrano, NonicaTab, Revit API, Claude/Anthropic, Autodesk App Store.
+- Score: 68
+- Status: candidate
+- Actionability for Rhino Mind/AoA: Study bounded authoring-app actions and guardrails for model modification; compare with RhinoMCP/RunChat/Rhino Mind.
+- Notes: Needs deeper docs/API inspection and examples of AI connector behavior before promotion.

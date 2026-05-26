@@ -67,6 +67,10 @@
 - McNeel Europe RunChat workshop page: https://blog.rhino3d.com/2026/03/runchat-online-workshop-april-21-23.html
 - Hypar Elements: https://github.com/hypar-io/Elements
 - Raven CAD / Grasshopper AI: https://www.raven.build/ ; https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628
+- Spacio.ai primary pages: https://www.spacio.ai ; https://www.spacio.ai/about
+- Qonic primary site / docs hub: https://qonic.com
+- NonicaTab / Nonica Revit AI connector: https://nonica.io
+- ShapeDiver cloud Grasshopper applications: https://www.shapediver.com
 
 ## Signal quality rubric
 

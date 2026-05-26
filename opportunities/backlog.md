@@ -102,3 +102,18 @@ Add new opportunities here only when they are specific enough to test or discuss
    - Build 5 tiny Rhino/GH semantic actions inspired by Hypar Elements + Raven: classify selected objects, add user text/property pack, generate one editable GH helper, run one IDS-lite check, export one BCF-lite issue.
    - Each atom must be editable, inspectable, and evidence-backed.
    - Success test: an architect can run/use one atom without migrating to a new BIM platform, and the atom leaves better project memory behind.
+
+18. **ATN hackathon prototype radar**
+   - For ATN/AECTech/Heatherwick-style events, extract teams, prototype titles, tools, problem statements, follow-up links and people.
+   - Classify each prototype as: Rhino/GH atom, BIM handoff, compliance/checking, visualisation, documentation, collaboration, or data platform.
+   - Success test: identify 3 prototype ideas or builders Luke should learn from before they become polished products.
+
+19. **Rhino/GH pre-BIM handoff report**
+   - Inspired by Spacio/Qonic: scan a Rhino/GH or Speckle model and output export readiness: names, layers, spaces, units, assumptions, missing metadata, compliance unknowns, quantities, and handoff risks.
+   - Target receiving platforms: Revit/ArchiCAD, Qonic, Snaptrude, Speckle, IFC.
+   - Success test: a downstream modeller receives fewer ambiguous objects and a clear list of what remains human/uncertain.
+
+20. **Authoring-app AI permission model**
+   - Inspired by NonicaTab/RhinoMCP/RunChat: define permissions for inspect-only, report, suggest script, edit metadata, edit geometry, and generate documentation.
+   - Every action should produce an evidence card: input objects, tool called, change made, uncertainty, undo path.
+   - Success test: an architect can trust Rhino Mind to take small actions without fearing uncontrolled model mutation.

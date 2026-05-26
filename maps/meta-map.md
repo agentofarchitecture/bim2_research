@@ -175,3 +175,23 @@ Hypar’s `Elements` repo (“The smallest useful BIM”) and Raven’s intent-t
 - **Rhino Mind side:** package semantic intelligence as small checkable tools: classify this selection, add missing properties, generate this GH helper, check this requirement, export this issue.
 
 Strategic implication: Rhino Mind’s first wedge should be **composable BIM atoms** inside Rhino/GH — tiny semantic actions with evidence — rather than a grand BIM replacement or generic AI canvas.
+
+## 14. ATN is an event/prototype graph, not only an interview graph
+
+The 2026-05-26 ATN x AECTech x Heatherwick Hackathon signal changes how to use YouTube/ATN. ATN is not merely a channel to summarize; it is a discovery graph where companies, studios, computational designers, developers, and prototype builders collide.
+
+- **Interview graph:** founders explain company theses: Snaptrude, Arcol, Giraffe, Motif, Qonic, Hypar, Speckle, Finch, Raven, RunChat.
+- **Event graph:** hackathons/workshops expose who can build, what problems create energy, and which workflow pains become prototypes.
+- **Prototype graph:** tools like ShapeDiver reveal deployment pathways for Grasshopper/Rhino intelligence outside authoring tools.
+
+Strategic implication: Rhino Mind should maintain an **ATN prototype radar**: capture teams, prototypes, tools, and problem statements from ATN/AECTech-style events, then classify which could become Rhino Mind atoms or outreach targets.
+
+## 15. Pre-BIM handoff intelligence is a product wedge
+
+Spacio, Qonic, and NonicaTab strengthen a recurring pattern: the value is often not “replace the authoring platform,” but compress and verify the handoff between messy design work and structured BIM/model workflows.
+
+- **Spacio:** early design + compliance + BIM export + Rhino/IFC interoperability.
+- **Qonic:** cloud BIM/model-data workflows and information field regulation.
+- **NonicaTab:** Revit AI connector where Claude can read/report/modify/document a live model.
+
+Strategic implication: Rhino Mind can own the **pre-BIM handoff layer** for Rhino/GH/Speckle: discover local project dialects, identify missing semantics, prepare structured export assumptions, and produce evidence before data moves downstream.

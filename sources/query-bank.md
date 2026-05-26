@@ -1,6 +1,6 @@
 # Query Bank
 
-Last updated: 2026-05-25.
+Last updated: 2026-05-26.
 
 ## High-yield recurring queries
 
@@ -117,3 +117,20 @@ Last updated: 2026-05-25.
 - `"hypar-io/Elements" "smallest useful BIM"`
 - `"Hypar" "Elements" "Ian Keough" "Andrew Heumann"`
 - `"Grasshopper" "intent" "editable definitions" "AI"`
+
+## 2026-05-26 additions
+
+### YouTube / ATN / events
+
+- `"ATN x AECTech x Heatherwick Hackathon" "Motif" "ShapeDiver"`
+- `"ArchiTech Network" "hackathon" "BIM 2.0" "AECTech"`
+- `"Oliver Thomas" "Architect 3.0" "BIM 2.0"`
+
+### Company/product verification
+
+- `"Spacio.ai" "Rhino" "IFC" "BIM export"`
+- `"Spacio" "André Agi" "Stian Haugrim" "BIM compliance"`
+- `"Qonic" "Developer Hub" "Revit" "BIM modelling platform"`
+- `"NonicaTab" "Claude" "Revit" "AI Connector"`
+- `"Jaime Alonso" "Nonica" "Revit API"`
+- `"ShapeDiver" "Grasshopper" "AEC" "parametric" "applications"`

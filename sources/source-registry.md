@@ -1,6 +1,6 @@
 # Source Registry
 
-Last updated: 2026-05-25.
+Last updated: 2026-05-26.
 
 ## Promoted sources
 
@@ -419,3 +419,72 @@ Last updated: 2026-05-25.
 - links_out_to: [https://www.raven.build/, https://discourse.mcneel.com/t/raven-can-now-use-plugins-grasshopper-ai-interface/208628]
 - linked_from: [sources/youtube-atn-grounding.md, daily/2026-05-25.md]
 - notes: ATN video transcript blocked by YouTube cloud-IP protections; Food4Rhino page appeared in search but returned HTTP 405 from this VPS.
+
+### ATN x AECTech x Heatherwick Hackathon
+
+- url: https://www.youtube.com/watch?v=C22ZP9XfwiM
+- type: YouTube / event metadata / prototype graph
+- platform: YouTube Atom RSS + ATN
+- entities: [ArchiTech Network, AECTech, Heatherwick Studio, Motif, ShapeDiver, BIM 2.0, computational design]
+- topics: [hackathon, prototypes, AI for AEC, BIM 2.0, automation, future of practice]
+- first_seen: 2026-05-25
+- last_checked: 2026-05-26
+- last_useful_signal: 2026-05-26
+- score: 78
+- status: promoted as source-discovery node
+- why_it_matters: ATN’s newest feed item is a dense event/prototype source: 26-hour hackathon hosted at Heatherwick with AECTech and Motif, explicitly around AI, BIM 2.0, computational design and automation.
+- best_use: Mine for people, teams, prototype names and practical workflow pain; do not treat as proof of product maturity until artifacts are found.
+- links_out_to: [https://www.youtube.com/channel/UCrLHBCOz211YirQRg2QVJvA, https://www.shapediver.com]
+- linked_from: [sources/youtube-atn-grounding.md, daily/2026-05-26.md]
+- notes: Transcript extraction blocked by YouTube cloud-IP protections; feed description was available and is enough to promote as a source-discovery node.
+
+### Spacio.ai primary source cluster
+
+- url: https://www.spacio.ai ; https://www.spacio.ai/about
+- type: product site / company grounding
+- platform: web
+- entities: [Spacio.ai, André Agi, Franz Forsberg, Stian Haugrim, Rhino, IFC]
+- topics: [early-phase design, compliance, BIM export, Rhino interoperability, feasibility]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-26
+- last_useful_signal: 2026-05-26
+- score: 76
+- status: candidate / strengthened verification
+- why_it_matters: Moves Spacio from ATN-listed name to verified product/company node with specific claims: real-time compliance, simulations, automatic drawings, BIM export, Rhino/IFC interoperability and named founding team.
+- best_use: Comparator for early design compliance + BIM-ready handoff workflows.
+- linked_from: [maps/company-landscape.md, daily/2026-05-26.md]
+- notes: Still verify export quality, supported jurisdictions, and technical docs before treating as implementation-equivalent to repo-backed sources.
+
+### Qonic primary site
+
+- url: https://qonic.com
+- type: product site / cloud BIM platform
+- platform: web
+- entities: [Qonic, cloud BIM, Revit]
+- topics: [cloud BIM modelling, data fields, collaboration, construction BIM, information management]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-26
+- last_useful_signal: 2026-05-26
+- score: 74
+- status: candidate / strengthened verification
+- why_it_matters: Primary site grounds Qonic as a cloud-based BIM modelling platform with designer/constructor/information-manager workflows, Revit downloads, developer hub, release notes and model data-field regulation messaging.
+- best_use: Handoff/platform benchmark for Rhino Mind structured export packages.
+- linked_from: [maps/company-landscape.md, daily/2026-05-26.md]
+- notes: Needs deeper docs/developer hub inspection and independent user/practice evidence.
+
+### NonicaTab / Nonica primary site
+
+- url: https://nonica.io
+- type: product site / Revit AI connector
+- platform: web
+- entities: [Nonica, NonicaTab, Jaime Alonso, Blanca Serrano, Revit, Claude, Anthropic]
+- topics: [Revit AI connector, Revit API, model modification, parameter editing, documentation]
+- first_seen: 2026-05-24
+- last_checked: 2026-05-26
+- last_useful_signal: 2026-05-26
+- score: 75
+- status: candidate / strengthened verification
+- why_it_matters: Concrete Revit-side comparator for authoring-app AI actions: read, report, edit parameters and document the live model through a plugin layer.
+- best_use: Study guardrails, permissions, and UX patterns for Rhino Mind’s own in-authoring actions.
+- linked_from: [maps/company-landscape.md, daily/2026-05-26.md]
+- notes: Needs deeper docs/examples to assess reliability and provenance.

@@ -1,6 +1,6 @@
 # BIM 2.0 Company Landscape
 
-Last updated: 2026-05-25.
+Last updated: 2026-05-26.
 
 Purpose: maintain a grounded company/product map for BIM 2.0 so the people map is not floating in abstract research. The strongest source anchors are ArchiTech Network / ATN, especially Oliver / Olly Thomas's BIM 2.0 company graph, plus AEC Magazine's independent BIM 2.0 / Rebuilding BIM coverage and primary company sources.
 
@@ -148,3 +148,39 @@ Rhino Mind’s likely wedge is different: **contextual tooling and project memor
 - YouTube transcript extraction remains blocked from this VPS by YouTube cloud-IP protections.
 - This pass used ATN title/oEmbed grounding, AEC Magazine coverage, primary company pages, docs and GitHub where available.
 - “Top” here means strongest relevance to BIM 2.0 / next-gen BIM strategy, not a pure funding, revenue or popularity ranking.
+
+## 2026-05-26 company/product grounding additions
+
+### Spacio.ai — promoted from “needs verification” to stronger candidate
+
+- **Primary-source evidence checked:** https://www.spacio.ai and https://www.spacio.ai/about.
+- **Product wedge:** early-phase building design / feasibility from site analysis through permit, with real-time compliance, unit-mix optimisation, daylight/sun-hour simulations, analytics/KPIs, automatic drawing generation, and BIM export.
+- **Core people:** André Agi — Product Lead / Architecture & Design; Franz Forsberg — Business Lead / Building Performance; Stian Haugrim — Tech Lead / BIM & Compliance.
+- **Integration surface:** primary site claims BIM export and interoperability with Rhino, IFC, DXF, OBJ, Excel, and downstream Revit/ArchiCAD after approval.
+- **Adoption friction:** strongest for early-phase Nordic/European compliance contexts first; still needs proof of export fidelity, editable downstream BIM, and how local code packs are maintained.
+- **Rhino Mind implication:** Spacio validates the “early design + compliance + BIM-ready handoff” wedge. Rhino Mind can avoid competing head-on by focusing on Rhino/GH project dialect mapping and handoff/check-pack preparation around existing models.
+
+### Qonic — model-data cloud BIM platform evidence strengthened
+
+- **Primary-source evidence checked:** https://qonic.com.
+- **Product wedge:** cloud-based BIM modelling platform for designers, constructors, information managers, and owner-occupiers; messaging emphasises fast model opening/exploration, extracting insights, collaboration, and regulating every data field.
+- **Integration surface:** Qonic primary navigation exposes desktop/mobile/Revit downloads, help/docs, community, release notes, feature requests, and developer hub.
+- **Adoption friction:** likely requires moving project participants into Qonic’s cloud workflow and validating round-trip behaviour with existing Revit/Rhino/IFC practice.
+- **Rhino Mind implication:** Qonic is a useful target handoff/benchmark platform: can Rhino Mind prepare a messy Rhino/Speckle package with names, spaces, quantities, assumptions, and metadata that a model-data platform can use better?
+
+### NonicaTab / Nonica — Revit AI connector source strengthened
+
+- **Primary-source evidence checked:** https://nonica.io.
+- **Product wedge:** “Where Revit meets AI”; a Revit toolbar / plugin-of-plugins plus AI connector that lets Claude read, report on, edit parameters, and document a Revit model.
+- **Core people surfaced:** Jaime Alonso — cofounder / CTO, architect and Revit API programmer; Blanca Serrano — cofounder / COO.
+- **Integration surface:** Revit 2020–2027, Revit API, Autodesk App Store trust signals, Anthropic official integration claim.
+- **Adoption friction:** Revit-only, enterprise/plugin workflow; value is highly dependent on guardrails around model modification.
+- **Rhino Mind implication:** NonicaTab is the Revit-side version of the same pattern as RhinoMCP/RunChat: natural language becomes tool actions inside an authoring app. Rhino Mind should copy the bounded-action interface but differentiate on semantic sidecar, evidence, and Rhino/GH-first adoption.
+
+### ShapeDiver — ATN hackathon-adjacent computational-design deployment node
+
+- **Primary-source evidence checked:** ATN x AECTech x Heatherwick Hackathon RSS description and https://www.shapediver.com.
+- **Product wedge:** cloud applications for Grasshopper; web-facing parametric models and configurators that let teams automate sales, marketing, production, and design iteration.
+- **Why added:** the newest ATN feed item names the hackathon as a collaboration with AECTech and Motif and tags ShapeDiver; ShapeDiver is not core BIM authoring, but it is important for the Rhino/GH-to-web deployment layer.
+- **Adoption friction:** not a BIM semantics platform by itself; strongest when Grasshopper definitions are already clean, parameterised, and productisable.
+- **Rhino Mind implication:** useful precedent for “publish a Rhino/GH intelligence atom as a usable web tool.” Rhino Mind could package small semantic checks or configurators the same way, with memory/evidence attached.

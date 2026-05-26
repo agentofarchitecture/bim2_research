@@ -1,6 +1,6 @@
 # BIM 2.0 Mental Models and Idea Sources
 
-Status: living synthesis. Last updated: 2026-05-25.
+Status: living synthesis. Last updated: 2026-05-26.
 
 This file is the real reason the people map exists.
 
@@ -197,3 +197,36 @@ Raven adds a narrower but important mental model to the RunChat/RhinoMCP cluster
 - **Limit/blind spot:** Intent-to-definition does not yet equal BIM 2.0; it needs project semantics, office standards, requirements, provenance, and handoff intelligence.
 - **Rhino Mind implication:** Treat editable GH generation as a baseline capability; differentiate by using the generated definition as part of an auditable semantic workflow.
 - **New model seed:** **Editable automation + semantic contract** — the graph/tool must remain editable, while Rhino Mind maintains the meaning, constraints, and evidence around it.
+
+### Event graph as prototype radar
+
+ATN’s newest hackathon signal suggests another way to read the BIM 2.0 people map: events are not merely marketing moments; they are compressed evidence environments where builders reveal what they can prototype quickly and what workflow pains generate energy.
+
+- **Person/source:** Oliver / Olly Thomas and ArchiTech Network, especially `C22ZP9XfwiM` ATN x AECTech x Heatherwick Hackathon.
+- **Core lens:** BIM 2.0 is shaped through a community/event graph as much as through papers and product pages.
+- **Evidence:** ATN hackathon description names architects, designers, developers, engineers and technologists building prototypes in 26 hours around AI, BIM 2.0, computational design, automation, visualisation and future practice; collaboration with AECTech and Motif; ShapeDiver tag.
+- **Why important:** This can surface high-agency practitioners and prototype ideas before they become startups, repos, or polished product pages.
+- **Limits/blind spots:** Hackathons over-reward demos and under-test reliability, liability, data maintenance, and office adoption.
+- **Rhino Mind action seed:** create a “prototype radar” pass: for every ATN/AECTech/hackathon event, extract teams, prototype names, tools used, problem statements, and follow-up artifacts; classify which could become Rhino Mind atoms.
+
+### Early design compliance handoff
+
+Spacio adds a product mental model: early design tools should validate feasibility/compliance while preserving a path into BIM and existing authoring tools.
+
+- **People/source:** André Agi, Franz Forsberg, Stian Haugrim / Spacio.ai.
+- **Core lens:** architects need fast early-phase design feedback across code, daylight, unit mix, KPIs, and site constraints before moving into detailed BIM.
+- **Evidence:** Spacio primary site claims real-time compliance, automatic drawing generation, BIM export, and interoperability with Rhino/IFC/DXF/OBJ/Excel plus downstream Revit/ArchiCAD.
+- **Why important:** This is exactly where Rhino-heavy practices lose information: early design decisions are made before the model has enough structure for later BIM/compliance workflows.
+- **Limits/blind spots:** jurisdiction-specific code packs and export fidelity are hard; “BIM-ready” needs downstream verification.
+- **Rhino Mind action seed:** build a Rhino/GH “pre-BIM handoff report” that extracts model assumptions, zoning/compliance unknowns, metadata gaps, and export readiness before a model goes to Speckle/Revit/Qonic/Snaptrude.
+
+### Authoring-app AI connector with guardrails
+
+NonicaTab strengthens the model that natural language can become bounded tool actions inside a heavyweight BIM app.
+
+- **Person/source:** Jaime Alonso / NonicaTab.
+- **Core lens:** the immediate user value of AEC AI is not a standalone chatbot; it is a controlled connector that can read, report, edit parameters, and document the live model.
+- **Evidence:** Nonica primary site claims Claude can read, report, modify parameters, and document Revit models through NonicaTab PRO / AI Connector.
+- **Why important:** This is the Revit analogue to RhinoMCP/RunChat/Rhino Mind and shows where user trust questions will appear first: what can the agent change, how is it checked, and what evidence remains?
+- **Limits/blind spots:** Revit-only and tool/plugin centric; visible site evidence does not yet show the depth of provenance or semantic validation.
+- **Rhino Mind action seed:** define a permission model for Rhino Mind actions: inspect-only, suggest script, edit metadata, edit geometry, generate documentation, with an evidence card for each action.
